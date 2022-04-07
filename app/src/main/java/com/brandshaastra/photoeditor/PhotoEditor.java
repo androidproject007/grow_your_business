@@ -32,7 +32,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class PhotoEditor implements BrushViewChangeListener, MultiTouchListener.OnMultiTouchListener {
+public class  PhotoEditor implements BrushViewChangeListener, MultiTouchListener.OnMultiTouchListener {
 
     private static final String TAG = "PhotoEditor";
     private final LayoutInflater mLayoutInflater;

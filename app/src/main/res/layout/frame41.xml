@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:id="@+id/frame13"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/asset_10border_layout_frame41"
+        android:padding="9dp"
+        tools:context=".ui.activity.ImageCanvasActivity">
+        <RelativeLayout
+            android:id="@+id/sixteenth_frame_relative"
+            android:layout_width="match_parent"
+            android:background="#660F0F"
+            android:layout_height="350dp">
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#660F0F"
+                >
+                <RelativeLayout
+                    android:id="@+id/business_logo_relative"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="@dimen/size_15dp"
+                    android:layout_marginTop="@dimen/dimen_5dp">
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_5dp">
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/simple_curved_relative_5dp">
+                            <ImageView
+                                android:id="@+id/business_icon"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/brand_shaastra_logo" />
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+                    <ImageView
+                        android:layout_width="@dimen/size_24"
+                        android:layout_height="@dimen/size_24"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/blue_circuler_bg"
+                        android:src="@drawable/_cancel"
+                        android:visibility="gone" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/business_logo_relative1"
+                    android:layout_width="230dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:layout_alignParentRight="true">
+                    <RelativeLayout
+                        android:id="@+id/layout1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:gravity="center_vertical">
+                        <LinearLayout
+                            android:id="@+id/test_name"
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:textColor="@color/white"
+                                android:layout_marginBottom="6dp"
+                                android:text="websiteName"></TextView>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:paddingRight="20dp"
+                        >
+                        <ImageView
+                            android:id="@+id/twitter_icon1"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/ic_icons8_line_24__2_"
+                            android:tint="@color/white" />
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/business_socialmedia_image_relative"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true">
+
+
+                        <LinearLayout
+                            android:id="@+id/social_image_linear"
+                            android:layout_width="wrap_content"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:id="@+id/twitter_icon"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_marginTop="@dimen/dimen_5dp"
+                                android:layout_marginRight="@dimen/dimen_5dp"
+                                android:layout_marginBottom="@dimen/dimen_5dp"
+                                android:src="@drawable/ic_third_frame_twitter"
+                                android:tint="@color/white" />
+
+                            <ImageView
+                                android:id="@+id/instagram_icon"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_marginTop="@dimen/dimen_5dp"
+                                android:layout_marginRight="@dimen/dimen_5dp"
+                                android:layout_marginBottom="@dimen/dimen_5dp"
+                                android:src="@drawable/ic_third_frame_insta"
+                                android:tint="@color/white" />
+
+                            <ImageView
+                                android:id="@+id/facebook_icon"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_marginTop="@dimen/dimen_5dp"
+                                android:layout_marginRight="@dimen/dimen_5dp"
+                                android:layout_marginBottom="@dimen/dimen_5dp"
+                                android:src="@drawable/ic_third_frame_facebook"
+                                android:tint="@color/white" />
+
+                            <ImageView
+                                android:id="@+id/whatsapp_icon"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_marginTop="@dimen/dimen_5dp"
+                                android:layout_marginBottom="@dimen/dimen_5dp"
+                                android:src="@drawable/ic_third_frame_whatsapp"
+                                android:tint="@color/white" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="@dimen/dimen_10dp"
+                            android:layout_height="@dimen/dimen_10dp"
+                            android:layout_alignRight="@+id/social_image_linear"
+                            android:background="@drawable/blue_circuler_bg"
+                            android:src="@drawable/_cancel"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="vertical">
+                   <RelativeLayout
+                       android:id="@+id/layout12"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+
+                       android:orientation="horizontal">
+                       <com.brandshaastra.utils.CustomTextViewBold
+                           android:id="@+id/business_call_details"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_centerVertical="true"
+                           android:ellipsize="end"
+                           android:paddingLeft="@dimen/dimen_5dp"
+
+                           android:singleLine="true"
+                           android:text="Contact Us"
+                           android:textColor="@color/white"
+                           android:textSize="@dimen/size_9dp" />
+
+                   </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/layout123"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <com.brandshaastra.utils.CustomTextViewBold
+                            android:id="@+id/business_call_details14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+
+                            android:ellipsize="end"
+                            android:paddingLeft="@dimen/dimen_5dp"
+
+                            android:singleLine="true"
+                            android:text="373947393"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/size_9dp" />
+                        <com.brandshaastra.utils.CustomTextViewBold
+                            android:id="@+id/business_call_details124"
+                            android:layout_width="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:ellipsize="end"
+                            android:paddingLeft="@dimen/dimen_5dp"
+                            android:singleLine="true"
+                            android:text="abcd2323@gmail.com"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/size_9dp" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/layout123"
+                        android:orientation="horizontal">
+                        <com.brandshaastra.utils.CustomTextViewBold
+                            android:id="@+id/business_call_details1"
+                            android:layout_width="200dp"
+                            android:layout_height="15dp"
+                            android:layout_centerVertical="true"
+                           android:ellipsize="end"
+                            android:paddingLeft="@dimen/dimen_5dp"
+
+                            android:singleLine="true"
+                            android:text="Location:xyz address related adding in here "
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/size_9dp" />
+                        <com.brandshaastra.utils.CustomTextViewBold
+                            android:id="@+id/website_text"
+                            android:layout_width="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:ellipsize="end"
+                            android:paddingLeft="@dimen/dimen_5dp"
+                            android:singleLine="true"
+                            android:text="www.website.com"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/size_9dp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+</layout>

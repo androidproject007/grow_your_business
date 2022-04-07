@@ -128,7 +128,7 @@ import static com.brandshaastra.utils.Utils.getScaledDimension;
 
 public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemClick, View.OnClickListener, OnFontStyleChange,
 
-   CompoundButton.OnCheckedChangeListener, OnPhotoEditorListener, StickerBSFragment.StickerListener {
+        CompoundButton.OnCheckedChangeListener, OnPhotoEditorListener, StickerBSFragment.StickerListener {
     //  List<Drawable> themeList;
     List<String> themeList;
     ActivityImageCanvasBinding binding;
@@ -219,7 +219,7 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         setContentView(binding.getRoot());
 //        fFmpeg = FFmpeg.getInstance(this);
         getSupportActionBar().hide();
-       // getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE);
+        // getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE);
 
         prefrence = SharedPrefrence.getInstance(ImageCanvasActivity.this);
         firebase = getSharedPreferences("MyPrefs", MODE_PRIVATE);
@@ -307,6 +307,7 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
 
     private void setUidata() {
         if (!businessDataDto.getImage().equalsIgnoreCase("") || businessDataDto.getImage().isEmpty()) {
+
             Glide.with(this).load(businessDataDto.getImage()).placeholder(R.drawable.brand_shaastra_logo).into(binding.first.businessIcon);
             Glide.with(this).load(businessDataDto.getImage()).placeholder(R.drawable.brand_shaastra_logo).into(binding.second.businessIcon);
             Glide.with(this).load(businessDataDto.getImage()).placeholder(R.drawable.brand_shaastra_logo).into(binding.third.businessIcon);
@@ -334,12 +335,16 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
             Glide.with(this).load(businessDataDto.getImage()).placeholder(R.drawable.brand_shaastra_logo).into(binding.twentysix.businessIcon);
             Glide.with(this).load(businessDataDto.getImage()).placeholder(R.drawable.brand_shaastra_logo).into(binding.twentyseven.businessIcon);
             Glide.with(this).load(businessDataDto.getImage()).placeholder(R.drawable.brand_shaastra_logo).into(binding.twentyeight.businessIcon);
+
+
         }
 
         binding.first.businessCallDetails.setText(businessDataDto.getMobile_no());
         binding.first.businessMailDetails.setText(businessDataDto.getEmail());
         binding.first.businessWebsiteDetails.setText(businessDataDto.getWebsite());
-        binding.first.businessLocationDetails.setText(businessDataDto.getAddress());
+        binding.first.companyName.setText(businessDataDto.getName());
+
+       /* binding.first.businessLocationDetails.setText(businessDataDto.getAddress());*/
 
         binding.second.businessCallDetails.setText(businessDataDto.getMobile_no());
         binding.second.businessMailDetails.setText(businessDataDto.getEmail());
@@ -700,11 +705,11 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         } else if (binding.first.callMainRelative.getVisibility() == View.GONE) {
             setting_phone_switch.setChecked(false);
         }
-        if (binding.first.locationMainRelative.getVisibility() == View.VISIBLE) {
+      /*  if (binding.first.locationMainRelative.getVisibility() == View.VISIBLE) {
             setting_address_switch.setChecked(true);
         } else if (binding.first.locationMainRelative.getVisibility() == View.GONE) {
             setting_address_switch.setChecked(false);
-        }
+        }*/
         if (binding.first.websiteMainRelative.getVisibility() == View.VISIBLE) {
             setting_website_switch.setChecked(true);
         } else if (binding.first.websiteMainRelative.getVisibility() == View.GONE) {
@@ -801,12 +806,13 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         switch (selectedTheme) {
 
             case 0:
+
                 binding.firstFrameInclude.setVisibility(View.VISIBLE);
                 binding.thirdFrameInclude.setVisibility(View.GONE);
                 binding.secondFrameInclude.setVisibility(View.GONE);
                 binding.forthFrameInclude.setVisibility(View.GONE);
                 binding.fifthFrameInclude.setVisibility(View.GONE);
-                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View        .GONE);
                 binding.seventhFrameInclude.setVisibility(View.GONE);
                 binding.eightFrameInclude.setVisibility(View.GONE);
                 binding.ninethFrameInclude.setVisibility(View.GONE);
@@ -2235,7 +2241,7 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         downloadVideoparams.put(Consts.USER_ID, userDTO.getUser_id());
         Log.e("downloadVideo_res", " video_url2:--  " + video_url2);
         Log.e("downloadVideo_res", " params " + downloadVideoparams.toString());
-      // Log.d("mytag", " params " + downloadVideoparams.toString());
+        // Log.d("mytag", " params " + downloadVideoparams.toString());
 
         new HttpsRequest(Consts.VISEO_FFMPEG_API, downloadVideoparams, this).stringPos2("downloadVideo", new Helper() {
             @Override
@@ -2428,8 +2434,8 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                                 finish();
                             }
 
-                          MediaMetadataRetriever retriever = new MediaMetadataRetriever();
-                          retriever.setDataSource(String.valueOf(newpath));
+                            MediaMetadataRetriever retriever = new MediaMetadataRetriever();
+                            retriever.setDataSource(String.valueOf(newpath));
                             String metaRotation = retriever.extractMetadata(METADATA_KEY_VIDEO_ROTATION);
 
                             int rotation = metaRotation == null ? 0 : Integer.parseInt(metaRotation);
@@ -3300,7 +3306,8 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         }
         scanGallery(context, pictureFile.getAbsolutePath());
         return pictureFile;
-    }//create bitmap from view and returns it
+    }
+    //create bitmap from view and returns it
 
     private void scanGallery(Context cntx, String path) {
         try {
@@ -3432,12 +3439,19 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
 
                                 setting_theme_color.setBackgroundColor(selectedColor);
                                 frame_border_color = selectedColor;
-                                binding.first.leftFirstFDot.setColorFilter(selectedColor);
+                           /*     binding.first.leftFirstFDot.setColorFilter(selectedColor);
                                 binding.first.leftFirstFDotFooter.setColorFilter(selectedColor);
                                 binding.first.headerFooterLine.setBackgroundColor(selectedColor);
                                 binding.first.headerLine.setBackgroundColor(selectedColor);
                                 binding.first.rightFirstFDot.setColorFilter(selectedColor);
                                 binding.first.rightFirstFDotFooter.setColorFilter(selectedColor);
+*/
+
+                                binding.first.websiteMainRelative.setBackgroundColor(selectedColor);
+                                binding.first.mailMainRelative.setBackgroundColor(selectedColor);
+                                binding.first.whatsappBg.setBackgroundColor(selectedColor);
+                                binding.first.callMainRelative.setBackgroundColor(selectedColor);
+                                binding.first.headerBg.setBackgroundColor(selectedColor);
 
                                 GradientDrawable myGrad = (GradientDrawable) binding.second.footerRelative.getBackground();
                                 myGrad.setStroke(1, selectedColor);
@@ -3747,7 +3761,9 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                                 binding.twentyseven.businessCallDetails.setTextColor(selectedColor);
                                 binding.twentyeight.businessCallDetails.setTextColor(selectedColor);
 
+/*
                                 binding.first.businessLocationDetails.setTextColor(selectedColor);
+*/
                                 binding.second.businessLocationDetails.setTextColor(selectedColor);
                                 binding.third.businessLocationDetails.setTextColor(selectedColor);
                                 binding.forth.businessLocationDetails.setTextColor(selectedColor);
@@ -3861,6 +3877,13 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                                 binding.twenty.frameSeventeenthFollowTxt.setTextColor(selectedColor);
                                 binding.twentyone.frameSeventeenthFollowTxt.setTextColor(selectedColor);
                                 binding.twentytwo.frameSeventeenthFollowTxt.setTextColor(selectedColor);
+
+                                //new frame fontcolor changer
+                                binding.first.companyName.setTextColor(selectedColor);
+                               binding.first.facebookIcon.setColorFilter(selectedColor);
+                                binding.first.whatsappIcon.setColorFilter(selectedColor);
+                                binding.first.twitterIcon.setColorFilter(selectedColor);
+                                binding.first.instaIcon.setColorFilter(selectedColor);
 
                             }
                         })
@@ -4157,6 +4180,7 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
     }
 
     private void hide_mail() {
+
         binding.first.mailMainRelative.setVisibility(View.GONE);
         binding.second.mailMainRelative.setVisibility(View.GONE);
         binding.third.mailMainRelative.setVisibility(View.INVISIBLE);

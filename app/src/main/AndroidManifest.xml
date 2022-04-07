@@ -2,14 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.brandshaastra">
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission
-        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-        tools:ignore="ScopedStorage" />
-
 
     <application
         android:extractNativeLibs="true"
@@ -34,7 +26,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".ui.activity.BusinessDocumentActivity"
             android:screenOrientation="portrait"
@@ -44,19 +35,16 @@
             android:hardwareAccelerated="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
-
         <activity
             android:name=".ui.activity.CheckSigninActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
-
         <!--
 <activity
             android:name=".ui.activity.SigninActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         -->
-
         <activity
             android:name=".ui.activity.SignUpActivity"
             android:hardwareAccelerated="false"
@@ -123,6 +111,9 @@
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_color"
             android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBasAVH1DG3Ruv5bbODadWVv8JCRbLlCaU" />
 
         <service android:name=".MyFirebase">
             <intent-filter>
@@ -133,21 +124,25 @@
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
-
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBasAVH1DG3Ruv5bbODadWVv8JCRbLlCaU" />
-
     </application>
 
-     <queries>
+    <queries>
         <intent>
             <action android:name="android.media.action.IMAGE_CAPTURE" />
         </intent>
         <intent>
             <action android:name="android.intent.action.PICK" />
+
             <data android:mimeType="image/*" />
         </intent>
-     </queries>
+    </queries>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
 </manifest>

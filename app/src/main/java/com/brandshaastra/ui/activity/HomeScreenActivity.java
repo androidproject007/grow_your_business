@@ -16,6 +16,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -30,6 +31,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.Toast;
+import android.widget.VideoView;
 
 import com.brandshaastra.utils.ProjectUtils;
 import com.bumptech.glide.Glide;
@@ -96,6 +98,7 @@ public class HomeScreenActivity extends AppCompatActivity implements BottomNavig
     ArrayList<FirstAdapterImageModel> firstAdapterListlist;
     String TAG = "HomeScreenActivity";
     UserDTO userDTO;
+    HashMap<String, String> contactus;
     private SharedPreferences firebase;
     HomeScreenAdapter homeScreenAdapter;
     List<HomeDialogModel> homeDialogList;
@@ -116,7 +119,7 @@ public class HomeScreenActivity extends AppCompatActivity implements BottomNavig
     CustomTextViewBold tvupdateapp;
     public ImageView img_sub_cat;
     String youtube = "";
-
+    String mobile_no = "";
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
@@ -168,6 +171,7 @@ public class HomeScreenActivity extends AppCompatActivity implements BottomNavig
         if(media_type){
             binding.pagerhome.setVisibility(View.GONE);
             binding.demo.setVisibility(View.GONE);
+            binding.whatsapp.setVisibility(View.GONE);
             binding.horizontalcardviewpager.setVisibility(View.GONE);
             binding.dots.setVisibility(View.GONE);
             binding.homeBusinessName.setVisibility(View.GONE);
@@ -210,6 +214,36 @@ public class HomeScreenActivity extends AppCompatActivity implements BottomNavig
             public void onClick(View v) {
                 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(youtube));
                 startActivity(browserIntent);
+            }
+        });
+        binding.whatsapp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String url = "http://wa.me/91" + mobile_no;
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+                Toast.makeText(HomeScreenActivity.this, "Whatsapp", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+
+        if (NetworkManager.isConnectToInternet(this)) {
+
+            getContactUsData();
+        } else {
+            Toast.makeText(this, getResources().getString(R.string.internet_concation), Toast.LENGTH_SHORT).show();
+        }
+        //front screen explaing video
+        final VideoView videoView = (VideoView) findViewById(R.id.video_view);
+        videoView.setVideoPath("https://thebrandshaastra.com/admin/assets/video/explainvideo.mp4");
+
+        videoView.start();
+        videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+            @Override
+            public void onPrepared(MediaPlayer mediaPlayer) {
+                mediaPlayer.setLooping(true);
+                videoView.start();
             }
         });
 
@@ -882,5 +916,35 @@ public class HomeScreenActivity extends AppCompatActivity implements BottomNavig
         dialogBinding.homeBottomsheetRv.setLayoutManager(new LinearLayoutManager(this));
         dialogBinding.homeBottomsheetRv.setAdapter(dialogAdapter);
         bottomSheetDialog.show();
+    }
+    private void getContactUsData() {
+        contactus = new HashMap<>();
+        contactus.put(Consts.USER_ID, userDTO.getUser_id());
+
+        new HttpsRequest(Consts.GET_CONTACT_US, contactus, this).stringPost("Contactus", Consts.USER_CONTROLLER, new Helper() {
+            @Override
+            public void backResponse(boolean flag, String msg, JSONObject response) {
+                if (flag) {
+                    try {
+                        Log.e("image_response",""+response.toString());
+                       /* status = response.getString("status");
+                        message = response.getString("message");*/
+
+                        mobile_no = response.getString("mobile_no");
+                        /*Log.e("mobile_no", "" + mobile_no);
+                        email_str = response.getString("email");
+                        w_image = response.getString("w_image");
+                        m_image = response.getString("m_image");
+                        image = response.getString("image");
+                        Glide.with(ContactUsActivity.this).load(image).placeholder(R.drawable.brand_shaastra_logo).into(contact_img);
+                        Glide.with(ContactUsActivity.this).load(w_image).placeholder(R.drawable.brand_shaastra_logo).into(chat);
+                        Glide.with(ContactUsActivity.this).load(m_image).placeholder(R.drawable.brand_shaastra_logo).into(email);*/
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                    Log.e("contact_res", "" + response.toString());
+                }
+            }
+        });
     }
 }

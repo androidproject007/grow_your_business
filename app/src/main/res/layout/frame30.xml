@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:id="@+id/frame2"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/border_frame"
+
+        tools:context=".ui.activity.ImageCanvasActivity">
+        <RelativeLayout
+            android:id="@+id/sixteenth_frame_relative"
+            android:layout_width="match_parent"
+            android:layout_height="350dp">
+            <RelativeLayout
+                android:id="@+id/business_logo_relative"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_15dp"
+                android:layout_marginTop="@dimen/dimen_5dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_5dp">
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/simple_curved_relative_5dp">
+                        <ImageView
+                            android:id="@+id/business_icon"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/brand_shaastra_logo" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <ImageView
+                    android:layout_width="@dimen/size_24"
+                    android:layout_height="@dimen/size_24"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/blue_circuler_bg"
+                    android:src="@drawable/_cancel"
+                    android:visibility="gone" />
+            </RelativeLayout>
+            <LinearLayout
+                android:id="@+id/business_socialmedia_image_relative"
+                android:layout_below="@+id/call_main_relative"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+
+                android:layout_marginTop="@dimen/dimen_5dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:id="@+id/location_main_relative12"
+                  android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/footer_mail_image141"
+                        android:layout_width="20dp"
+                        android:layout_height="15dp"
+
+                        android:layout_centerVertical="true"
+
+                        android:src="@drawable/ic_icons8_call_66"
+                        android:tint="#004B80"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:layout_height="20dp"
+                    android:gravity="center">
+                    <com.brandshaastra.utils.CustomTextViewBold
+                        android:id="@+id/business_call_details1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:ellipsize="end"
+                        android:paddingLeft="@dimen/dimen_5dp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size_9dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout
+                android:id="@+id/call_main_relative"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingTop="5dp">
+
+                <ImageView
+                    android:id="@+id/footer_call_image"
+                    android:layout_width="20dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ic_icons8_call_66"
+                    app:tint="#004B80" />
+
+                <com.brandshaastra.utils.CustomTextViewBold
+                    android:id="@+id/business_call_details"
+                    android:layout_width="70dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/footer_call_image"
+                    android:ellipsize="end"
+                    android:paddingLeft="@dimen/dimen_5dp"
+                    android:singleLine="true"
+                    android:text="ds"
+                    android:textColor="#004B80"
+                    android:paddingTop="5dp"
+                    android:textSize="@dimen/size_9dp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/bottom_sixteenth_frame_main_relative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_alignParentBottom="true">
+                    <RelativeLayout
+                        android:id="@+id/footer_relative"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:alpha="0.8"
+                        android:background="#23263B">
+                        <TextView
+                            android:id="@+id/frame19_view1"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/black" />
+                        <LinearLayout
+                            android:id="@+id/bottom_first_frame_first_linear"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal"
+                            android:background="#23263B"
+                            android:gravity="center_vertical|center_horizontal">
+                            <Space
+                                android:layout_width="0dp"
+                                android:layout_height="1dp"
+                                android:layout_weight="1" ></Space>
+                            <LinearLayout
+                                android:id="@+id/website_main_relative"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center">
+                                <ImageView
+                                    android:id="@+id/footer_website_image"
+                                    android:layout_width="10dp"
+                                    android:layout_height="10dp"
+
+                                    android:src="@drawable/ic_website"
+                                    android:tint="@color/white" />
+                                <com.brandshaastra.utils.CustomTextView
+                                    android:id="@+id/business_website_details"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_centerVertical="true"
+                                    android:ellipsize="end"
+                                    android:gravity="center_horizontal"
+                                    android:paddingLeft="@dimen/dimen_5dp"
+                                    android:singleLine="true"
+                                    android:text="Website Name"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/size_9dp" />
+                            </LinearLayout>
+                            <Space
+                                android:layout_width="0dp"
+                                android:layout_height="1dp"
+                                android:layout_weight="1" ></Space>
+                            <LinearLayout
+                                android:id="@+id/mail_main_relative"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center">
+                                <ImageView
+                                    android:id="@+id/footer_mail_image"
+                                    android:layout_width="10dp"
+                                    android:layout_height="10dp"
+                                   android:src="@drawable/ic_pink_mail_28"
+                                    android:tint="@color/white"/>
+                                <com.brandshaastra.utils.CustomTextView
+                                    android:id="@+id/business_mail_details"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_centerVertical="true"
+                                    android:ellipsize="end"
+                                    android:gravity="center_horizontal"
+                                    android:paddingLeft="@dimen/dimen_5dp"
+                                    android:singleLine="true"
+                                    android:text="Email Address"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/size_9dp" />
+                            </LinearLayout>
+                            <Space
+                                android:layout_width="0dp"
+                                android:layout_height="1dp"
+                                android:layout_weight="1" ></Space>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center">
+                                <ImageView
+                                    android:id="@+id/footer_mail_image23"
+                                    android:layout_width="10dp"
+                                    android:layout_height="10dp"
+                                    android:src="@drawable/ic_baseline_location_on_24"
+                                    android:tint="@color/white" />
+                                <com.brandshaastra.utils.CustomTextView
+                                    android:id="@+id/business_location"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_centerVertical="true"
+                                    android:ellipsize="end"
+                                    android:gravity="center_horizontal"
+                                    android:paddingLeft="@dimen/dimen_5dp"
+                                    android:singleLine="true"
+                                    android:text="Ahmedabad"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/size_9dp" />
+                            </LinearLayout>
+                            <Space
+                                android:layout_width="0dp"
+                                android:layout_height="1dp"
+                                android:layout_weight="1" ></Space>
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/location_main_relative"
+                        android:layout_width="310dp"
+                        android:layout_height="15dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/curved_blank_relative_5dp"
+                        android:backgroundTint="#004B80"
+                        android:gravity="center">
+                        <ImageView
+                            android:id="@+id/footer_location_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:visibility="invisible"
+                            android:src="@drawable/ic_baseline_location_on_24" />
+                        <com.brandshaastra.utils.CustomTextView
+                            android:id="@+id/business_location_details"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+
+
+                            android:ellipsize="end"
+                            android:paddingLeft="@dimen/dimen_5dp"
+                            android:singleLine="true"
+                            android:text="kjsdbcjhsda s"
+                            android:textColor="@color/white"
+                            android:textSize="8dp"
+                            tools:ignore="MissingClass" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</layout>

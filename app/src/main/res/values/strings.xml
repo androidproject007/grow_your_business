@@ -89,10 +89,13 @@
     <string name="company_description">Company Description</string>
     <string name="enter_description">Enter Description</string>
     <string name="submit">SUBMIT</string>
+    <string name="submit1">NEXT</string>
     <string name="enter_componey_email_address">Enter Company Email Address</string>
     <string name="designation">Enter Designation</string>
     <string name="enter_referral_code">Enter Referral Code</string>
 
     <string name="MainFolderName">VEditor</string>
     <string name="PhotoToVideo">PhotoToVideo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

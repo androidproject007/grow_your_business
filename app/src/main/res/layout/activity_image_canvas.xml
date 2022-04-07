@@ -258,7 +258,114 @@
                                     android:layout_marginTop="@dimen/dimen_20dp"
                                     android:visibility="gone" />
                             </RelativeLayout>
+                            <RelativeLayout
+                                android:id="@+id/first_frame_include_new"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
 
+                                <include
+                                    android:id="@+id/first_new"
+                                    layout="@layout/frame29" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/second_frame_include_new"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone">
+
+                                <include
+                                    android:id="@+id/secondnew"
+                                    layout="@layout/frame2" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/third_frame_includenew"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone">
+
+                                <include
+                                    android:id="@+id/third"
+                                    layout="@layout/frame3" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/forth_frame_include"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone">
+
+                                <include
+                                    android:id="@+id/forth"
+                                    layout="@layout/frame4" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/fifth_frame_include"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone">
+
+                                <include
+                                    android:id="@+id/fifth"
+                                    layout="@layout/frame5" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/sixth_frame_include"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone">
+
+                                <include
+                                    android:id="@+id/sixth"
+                                    layout="@layout/frame6" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/seventh_frame_include"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone">
+
+                                <include
+                                    android:id="@+id/seventh"
+                                    layout="@layout/frame7" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/eight_frame_include"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone">
+
+                                <include
+                                    android:id="@+id/eight"
+                                    layout="@layout/frame8" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/nineth_frame_include"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone">
+
+                                <include
+                                    android:id="@+id/nineth"
+                                    layout="@layout/frame9" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/tenth_frame_include"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone">
+
+                                <include
+                                    android:id="@+id/tenth"
+                                    layout="@layout/frame10" />
+                            </RelativeLayout>
                             <RelativeLayout
                                 android:id="@+id/first_frame_include"
                                 android:layout_width="match_parent"
@@ -266,7 +373,7 @@
 
                                 <include
                                     android:id="@+id/first"
-                                    layout="@layout/frame1" />
+                                    layout="@layout/frame29" />
                             </RelativeLayout>
 
                             <RelativeLayout

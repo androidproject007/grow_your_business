@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -51,6 +52,7 @@ import static android.widget.Toast.LENGTH_LONG;
 
 public class BusinessDocumentActivity extends AppCompatActivity implements View.OnClickListener {
     ActivityBusinessDocumentBinding binding;
+
     String checkbox_str = "";
     List<String> checkboxValueList = new ArrayList<>();
     public static HashMap<String, File> paramsFile;
@@ -61,7 +63,6 @@ public class BusinessDocumentActivity extends AppCompatActivity implements View.
     BusinessDataDto businessDataDto;
     private SharedPreferences firebase;
     String email;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -85,6 +86,7 @@ public class BusinessDocumentActivity extends AppCompatActivity implements View.
         });*/
 
         setUiAction();
+
 
     }
 

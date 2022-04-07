@@ -129,7 +129,18 @@
                     android:textColorHint="@color/black"
 
                     android:textSize="@dimen/text_size_16" />
-
+               <!-- <com.brandshaastra.utils.CustomTextViewBold
+                    android:id="@+id/signup_btn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/text_size_20"
+                    android:background="@drawable/button_bg"
+                    android:paddingLeft="@dimen/size_50dp"
+                    android:paddingTop="@dimen/dimen_10dp"
+                    android:paddingRight="@dimen/size_50dp"
+                    android:paddingBottom="@dimen/dimen_10dp"
+                    android:text="@string/submit1"
+                    android:textColor="@color/black" />-->
                 <com.brandshaastra.utils.CustomEditText
                     android:id="@+id/signup_c_email"
                     android:layout_width="match_parent"
