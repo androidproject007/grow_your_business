@@ -226,7 +226,8 @@
                             android:singleLine="true"
                             android:text="ds"
                             android:textColor="@color/first_frame_pink_color"
-                            android:textSize="@dimen/size_9dp" />
+                            android:textSize="@dimen/size_9dp"
+                            tools:ignore="MissingClass" />
                     </RelativeLayout>
 
                     <RelativeLayout

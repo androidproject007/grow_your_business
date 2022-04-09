@@ -242,6 +242,39 @@
                     android:padding="@dimen/dimen_10dp" />
             </LinearLayout>
 
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/setting_l_linear2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/setting_l_linear"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:gravity="left">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/size_15dp"
+                android:gravity="left">
+
+                <com.brandshaastra.utils.CustomTextViewBold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dimen_10dp"
+                    android:text="Whatsapp"
+                    android:textColor="@color/dark_blue_color"
+                    android:textSize="@dimen/text_size_16" />
+
+                <Switch
+                    android:id="@+id/setting_whatsapp_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dimen_10dp" />
+            </LinearLayout>
+
         </LinearLayout>
 
 
@@ -250,7 +283,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_below="@+id/setting_l_linear"
+            android:layout_below="@+id/setting_l_linear2"
             android:weightSum="2"
             android:gravity="left">
 

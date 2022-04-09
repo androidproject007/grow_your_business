@@ -57,21 +57,21 @@
                 android:layout_alignParentRight="true">
 
                 <TextView
-                    android:id="@+id/website_name"
+                    android:id="@+id/business_company_details"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:layout_marginLeft="4dp"
                     android:gravity="center"
-                    android:textSize="@dimen/size_9dp"
                     android:text="websiteName"
-                    android:textColor="@color/white"></TextView>
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_9dp"></TextView>
 
                 <ImageView
                     android:id="@+id/twitter_icon1"
                     android:layout_width="15sp"
                     android:layout_height="15sp"
-                    android:layout_toRightOf="@+id/website_name"
+                    android:layout_toRightOf="@+id/business_company_details"
 
                     android:src="@drawable/ic_icons8_line_24__2_"
                     android:tint="@color/white" />
@@ -149,38 +149,41 @@
                     android:text="Number1"
                     android:textColor="@color/white"
                     android:textSize="@dimen/size_9dp" />
+
                 <com.brandshaastra.utils.CustomTextView
-                    android:id="@+id/business_website_details34"
+                    android:id="@+id/business_whatsapp_details"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:ellipsize="end"
                     android:layout_marginLeft="40dp"
                     android:layout_marginTop="20dp"
+                    android:ellipsize="end"
 
                     android:singleLine="true"
                     android:text="Number2"
                     android:textColor="@color/white"
                     android:textSize="@dimen/size_9dp" />
+
                 <com.brandshaastra.utils.CustomTextView
                     android:id="@+id/business_website_details"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:ellipsize="end"
                     android:layout_marginLeft="110dp"
                     android:layout_marginTop="5dp"
                     android:layout_toRightOf="@+id/businessCallDetails"
+                    android:ellipsize="end"
                     android:singleLine="true"
                     android:text="website"
                     android:textColor="@color/white"
                     android:textSize="@dimen/size_9dp" />
+
                 <com.brandshaastra.utils.CustomTextView
                     android:id="@+id/business_mail_details"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:ellipsize="end"
                     android:layout_marginLeft="110dp"
                     android:layout_marginTop="20dp"
                     android:layout_toRightOf="@+id/businessCallDetails"
+                    android:ellipsize="end"
                     android:singleLine="false"
                     android:text="Email"
                     android:textColor="@color/white"

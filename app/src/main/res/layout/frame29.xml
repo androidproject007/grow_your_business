@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
     <RelativeLayout
-        android:id="@+id/frame1"
+        android:id="@+id/frame29"
         android:layout_width="match_parent"
         android:layout_height="350dp"
         android:background="@drawable/border_frame"
@@ -144,10 +144,12 @@
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
                     android:ellipsize="end"
+
                     android:singleLine="true"
                     android:text=""
                     android:textColor="@color/white"
-                    android:textSize="@dimen/size_9dp" />
+                    android:textSize="@dimen/size_9dp"
+                    tools:ignore="MissingClass" />
 
             </LinearLayout>
             <LinearLayout
@@ -201,22 +203,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <LinearLayout
-                android:id="@+id/whatsapp_bg"
+                android:id="@+id/whatsappMainRelative"
                 android:layout_width="180dp"
                 android:layout_height="15dp"
                 android:gravity="center"
                 android:background="#0C4989">
                 <com.brandshaastra.utils.CustomTextViewBold
-                    android:id="@+id/business_call_details"
+                    android:id="@+id/business_whatsapp_details"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
                     android:ellipsize="end"
-                    android:paddingLeft="@dimen/dimen_5dp"
                     android:singleLine="true"
-                    android:text=""
+                    android:text="DFD"
                     android:textColor="@color/white"
-                    android:textSize="@dimen/size_9dp" />
+                    android:textSize="@dimen/size_9dp"
+                    tools:ignore="MissingClass" />
 
             </LinearLayout>
             <LinearLayout
@@ -226,7 +228,7 @@
 
                 android:background="#CF144C">
                 <ImageView
-                    android:id="@+id/footer_location_image"
+                    android:id="@+id/footer_whatsapp_image"
                     android:layout_width="@dimen/size_15dp"
                     android:layout_height="@dimen/size_15dp"
                     android:layout_centerVertical="true"

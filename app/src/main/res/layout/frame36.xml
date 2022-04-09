@@ -67,6 +67,7 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
                         <TextView
+                            android:id="@+id/business_company_details"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
@@ -183,6 +184,7 @@
                 android:id="@+id/bottom_sixteenth_frame_main_relative"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
@@ -194,9 +196,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
                         android:layout_marginLeft="20dp"
-                        android:padding="5dp"
+                        android:gravity="center"
 
-                        android:gravity="center">
+                        android:padding="5dp">
                         <!-- <ImageView
                              android:id="@+id/footer_location_image"
                              android:layout_width="wrap_content"
@@ -212,21 +214,22 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="30dp"
                                 android:layout_marginLeft="20dp"
-                                android:orientation="horizontal"
-                                android:gravity="center_vertical|center_horizontal">
+                                android:gravity="center_vertical|center_horizontal"
+                                android:orientation="horizontal">
 
                                 <LinearLayout
                                     android:id="@+id/website_main_relative"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:gravity="center"
                                     android:layout_marginLeft="20dp"
+                                    android:gravity="center"
                                     android:orientation="horizontal">
 
                                     <LinearLayout
-                                        android:orientation="vertical"
                                         android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content">
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical">
+
                                         <com.brandshaastra.utils.CustomTextView
                                             android:id="@+id/businessCallDetails"
                                             android:layout_width="match_parent"
@@ -239,9 +242,11 @@
                                             android:singleLine="true"
                                             android:text="number"
                                             android:textColor="#032552"
-                                            android:textSize="7dp" />
+                                            android:textSize="7dp"
+                                            tools:ignore="MissingClass" />
+
                                         <com.brandshaastra.utils.CustomTextView
-                                            android:id="@+id/businessMailDetailss"
+                                            android:id="@+id/business_call_details_second"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
                                             android:layout_centerHorizontal="true"
@@ -257,17 +262,19 @@
                                     </LinearLayout>
 
                                 </LinearLayout>
+
                                 <Space
                                     android:layout_width="0dp"
                                     android:layout_height="1dp"
 
-                                    android:layout_weight="1" ></Space>
+                                    android:layout_weight="1"></Space>
+
                                 <ImageView
                                     android:id="@+id/footer_mail_image22"
                                     android:layout_width="10dp"
                                     android:layout_height="30dp"
-                                    android:src="@drawable/asset_9round_border"
-                                    />
+                                    android:src="@drawable/asset_9round_border" />
+
                                 <LinearLayout
                                     android:id="@+id/mail_main_relative"
                                     android:layout_width="wrap_content"
@@ -294,6 +301,7 @@
                                             android:text="Website"
                                             android:textColor="#032552"
                                             android:textSize="7dp" />
+
                                         <com.brandshaastra.utils.CustomTextView
                                             android:id="@+id/businessMailDetails"
                                             android:layout_width="match_parent"
@@ -309,17 +317,19 @@
                                             android:textSize="7dp" />
                                     </LinearLayout>
                                 </LinearLayout>
+
                                 <Space
                                     android:layout_width="0dp"
                                     android:layout_height="1dp"
 
-                                    android:layout_weight="1" ></Space>
+                                    android:layout_weight="1"></Space>
+
                                 <ImageView
                                     android:id="@+id/footer_mail_image21"
                                     android:layout_width="10dp"
                                     android:layout_height="30dp"
-                                    android:src="@drawable/asset_9round_border"
-                                    />
+                                    android:src="@drawable/asset_9round_border" />
+
                                 <LinearLayout
                                     android:id="@+id/call_main_relative1"
                                     android:layout_width="100dp"
@@ -329,21 +339,21 @@
                                     android:orientation="horizontal">
 
                                     <TextView
-                                        android:layout_marginLeft="20dp"
-                                        android:text="Contact Us"
-
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:textSize="12dp"
-                                        android:textColor="#032552"/>
 
+                                        android:layout_marginLeft="20dp"
+                                        android:text="Contact Us"
+                                        android:textColor="#032552"
+                                        android:textSize="12dp" />
 
 
                                 </LinearLayout>
+
                                 <Space
                                     android:layout_width="0dp"
                                     android:layout_height="1dp"
-                                    android:layout_weight="1" ></Space>
+                                    android:layout_weight="1"></Space>
 
                             </LinearLayout>
 

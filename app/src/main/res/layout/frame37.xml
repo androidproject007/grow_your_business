@@ -60,8 +60,9 @@
 
                     android:layout_marginTop="10dp"
                     >
+
                     <TextView
-                        android:id="@+id/website_name"
+                        android:id="@+id/business_company_details"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
@@ -71,7 +72,7 @@
                         android:gravity="center"
                         android:text="websiteName"
                         android:textColor="#032552"
-                        android:textSize="8dp"/>
+                        android:textSize="8dp" />
                 </RelativeLayout>
             </RelativeLayout>
             <LinearLayout
@@ -286,7 +287,7 @@
 
 
                                 <com.brandshaastra.utils.CustomTextView
-                                    android:id="@+id/business_call_details"
+                                    android:id="@+id/business_location_details"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_centerHorizontal="true"
