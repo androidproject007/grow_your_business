@@ -364,7 +364,7 @@
                                 android:visibility="gone">
 
                                 <include
-                                    android:id="@+id/thirtyeieight_new"
+                                    android:id="@+id/thirtyeight_new"
                                     layout="@layout/frame38" />
                             </RelativeLayout>
                             <RelativeLayout
@@ -397,7 +397,7 @@
 
                                 <include
                                     android:id="@+id/fortyone_new"
-                                    layout="@layout/frame13" />
+                                    layout="@layout/frame41" />
                             </RelativeLayout>
 
                             <RelativeLayout
@@ -475,6 +475,60 @@
                                 <include
                                     android:id="@+id/fortyeight_new"
                                     layout="@layout/frame48" />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:id="@+id/twentyone_frame_include_new"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone">
+
+                                <include
+                                    android:id="@+id/fortynine_new"
+                                    layout="@layout/frame49" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/twentytwo_frame_include_new"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone">
+
+                                <include
+                                    android:id="@+id/fifty_new"
+                                    layout="@layout/frame50" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/twentythree_frame_include_new"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone">
+
+                                <include
+                                    android:id="@+id/fiftyone_new"
+                                        layout="@layout/frame51" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/twentyfour_frame_include_new"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone">
+
+                                <include
+                                    android:id="@+id/fiftytwo_new"
+                                    layout="@layout/frame52" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/twentyfive_frame_include_new"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone">
+
+                                <include
+                                    android:id="@+id/fiftythree_new"
+                                    layout="@layout/frame53" />
                             </RelativeLayout>
 
 

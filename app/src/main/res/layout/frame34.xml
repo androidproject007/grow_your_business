@@ -50,10 +50,9 @@
             <RelativeLayout
                 android:id="@+id/business_logo_relative1"
                 android:layout_width="200dp"
-                android:layout_height="30dp"
+                android:layout_height="20dp"
                 android:gravity="center"
-
-                android:background="@drawable/ic_asset_734frame_border"
+                 android:background="@drawable/ic_asset_734frame_border"
                 android:layout_alignParentRight="true">
 
                 <TextView
@@ -63,12 +62,18 @@
                     android:layout_alignParentStart="true"
                     android:layout_marginLeft="4dp"
                     android:gravity="center"
-                    android:text="websiteName"
+                    android:text="GrowYourBusiness"
                     android:textColor="@color/white"
                     android:textSize="@dimen/size_9dp"></TextView>
+                <RelativeLayout
+                    android:id="@+id/business_socialmedia_image_relative"
+                    android:layout_toRightOf="@+id/business_company_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
 
                 <ImageView
-                    android:id="@+id/twitter_icon1"
+                    android:id="@+id/header_slash_icon"
                     android:layout_width="15sp"
                     android:layout_height="15sp"
                     android:layout_toRightOf="@+id/business_company_details"
@@ -82,7 +87,7 @@
                     android:layout_width="15sp"
                     android:layout_height="15sp"
 
-                    android:layout_toRightOf="@+id/twitter_icon1"
+                    android:layout_toRightOf="@+id/header_slash_icon"
                     android:src="@drawable/ic_third_frame_twitter"
                     android:tint="@color/white" />
 
@@ -122,6 +127,7 @@
                         android:background="@drawable/blue_circuler_bg"
                         android:src="@drawable/_cancel"
                         android:visibility="gone" />-->
+                </RelativeLayout>
             </RelativeLayout>
         </RelativeLayout>
 
@@ -131,22 +137,22 @@
             android:layout_height="wrap_content">
 
             <RelativeLayout
+                android:id="@+id/footer_bg"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:layout_alignParentBottom="true"
-                android:background="#1B4E7D"
-               >
+                android:background="#1B4E7D">
 
                 <com.brandshaastra.utils.CustomTextView
                     android:id="@+id/businessCallDetails"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:ellipsize="end"
                     android:layout_marginLeft="40dp"
                     android:layout_marginTop="5dp"
+                    android:ellipsize="end"
 
                     android:singleLine="true"
-                    android:text="Number1"
+                    android:text="8349849349"
                     android:textColor="@color/white"
                     android:textSize="@dimen/size_9dp" />
 
@@ -159,7 +165,7 @@
                     android:ellipsize="end"
 
                     android:singleLine="true"
-                    android:text="Number2"
+                    android:text="3487498883"
                     android:textColor="@color/white"
                     android:textSize="@dimen/size_9dp" />
 
@@ -172,38 +178,39 @@
                     android:layout_toRightOf="@+id/businessCallDetails"
                     android:ellipsize="end"
                     android:singleLine="true"
-                    android:text="website"
+                    android:text="growyourbusiness.com"
                     android:textColor="@color/white"
                     android:textSize="@dimen/size_9dp" />
 
                 <com.brandshaastra.utils.CustomTextView
                     android:id="@+id/business_mail_details"
-                    android:layout_width="100dp"
+                    android:layout_width="130dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="110dp"
                     android:layout_marginTop="20dp"
                     android:layout_toRightOf="@+id/businessCallDetails"
                     android:ellipsize="end"
                     android:singleLine="false"
-                    android:text="Email"
+                    android:text="growyourbusiness@gmail.com"
                     android:textColor="@color/white"
                     android:textSize="@dimen/size_9dp" />
 
 
             </RelativeLayout>
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="20dp"
-                android:background="@color/white"
-                android:layout_alignParentBottom="true">
+                android:layout_alignParentBottom="true"
+                android:background="@color/white">
 
                 <com.brandshaastra.utils.CustomTextView
                     android:id="@+id/business_location_details"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:ellipsize="end"
                     android:layout_marginLeft="40dp"
                     android:layout_marginTop="5dp"
+                    android:ellipsize="end"
 
                     android:singleLine="true"
                     android:text="Address"
@@ -211,30 +218,31 @@
                     android:textSize="@dimen/size_9dp" />
 
 
-
             </RelativeLayout>
+
             <RelativeLayout
                 android:layout_width="30dp"
                 android:layout_height="75dp"
 
-                android:background="@drawable/ic_asset_834frame_border"
-                android:paddingTop="10dp"
+                android:layout_alignParentBottom="true"
                 android:layout_marginLeft="5dp"
-                android:layout_alignParentBottom="true">
+                android:background="@drawable/ic_asset_834frame_border"
+                android:paddingTop="10dp">
+
                 <ImageView
-                    android:id="@+id/twitter_icon11"
+                    android:id="@+id/footer_call_icon"
                     android:layout_width="20dp"
-                    android:layout_marginTop="12dp"
                     android:layout_height="20dp"
                     android:layout_marginLeft="5dp"
+                    android:layout_marginTop="12dp"
                     android:src="@drawable/ic_fifth_frame_call"
                     android:tint="@color/white" />
 
                 <ImageView
-                    android:id="@+id/twitter_icon112"
+                    android:id="@+id/footer_location_icon"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:layout_below="@+id/twitter_icon11"
+                    android:layout_below="@+id/footer_call_icon"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="10dp"
                     android:src="@drawable/ic_location"
@@ -242,20 +250,21 @@
 
 
             </RelativeLayout>
+
             <RelativeLayout
                 android:layout_width="40dp"
                 android:layout_height="55dp"
+                android:layout_marginLeft="200dp"
                 android:layout_marginTop="275dp"
                 android:background="@drawable/ic_asset_834frame_border"
-                android:paddingTop="10dp"
-                android:layout_marginLeft="200dp"
-               >
+                android:paddingTop="10dp">
+
                 <ImageView
-                    android:id="@+id/twitter_icon1132"
+                    android:id="@+id/footer_email_icon"
                     android:layout_width="20dp"
-                    android:layout_marginTop="12dp"
                     android:layout_height="20dp"
                     android:layout_marginLeft="10dp"
+                    android:layout_marginTop="12dp"
                     android:src="@drawable/ic_icons8_message_48"
                     android:tint="@color/white" />
 

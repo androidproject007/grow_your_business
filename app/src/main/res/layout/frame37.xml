@@ -51,15 +51,15 @@
                 android:gravity="center"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="-40dp">
+
                 <RelativeLayout
-                    android:id="@+id/business_logo_relative1d"
+                    android:id="@+id/business_logo_bg"
                     android:layout_width="140dp"
                     android:layout_height="40dp"
-                    android:gravity="center"
+                    android:layout_marginTop="10dp"
                     android:background="@drawable/border_courner_round"
 
-                    android:layout_marginTop="10dp"
-                    >
+                    android:gravity="center">
 
                     <TextView
                         android:id="@+id/business_company_details"
@@ -70,13 +70,13 @@
                         android:layout_marginLeft="4dp"
                         android:layout_marginTop="15dp"
                         android:gravity="center"
-                        android:text="websiteName"
+                        android:text="growyourbusiness"
                         android:textColor="#032552"
                         android:textSize="8dp" />
                 </RelativeLayout>
             </RelativeLayout>
             <LinearLayout
-                android:id="@+id/business_logo_relative12"
+                android:id="@+id/business_socialmedia_image_relative"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:gravity="center"
@@ -128,27 +128,27 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_alignParentBottom="true">
+
                 <ImageView
                     android:id="@+id/footer_mail_image12"
                     android:layout_width="match_parent"
                     android:layout_height="3dp"
                     android:layout_marginTop="8dp"
-                    android:src="@drawable/ic_asset_5ldpif"
-                    android:tint="#FFCE0A"
-                    />
+                    android:src="@drawable/ic_asset_5ldpif" />
+
                 <com.brandshaastra.utils.CustomTextView
-                    android:id="@+id/business_website_detailsd"
+                    android:id="@+id/business_service_details"
                     android:layout_width="70dp"
                     android:layout_height="20dp"
 
                     android:layout_centerHorizontal="true"
+                    android:background="@drawable/border_courner_round"
                     android:ellipsize="end"
                     android:gravity="center"
                     android:singleLine="true"
                     android:text="Service"
-                    android:background="@drawable/border_courner_round"
                     android:textColor="@color/black"
-                    android:textSize="8dp" >
+                    android:textSize="8dp">
 
                 </com.brandshaastra.utils.CustomTextView>
 
@@ -193,11 +193,10 @@
                                     android:layout_centerVertical="true"
                                     android:ellipsize="end"
                                     android:gravity="center_horizontal"
-                                    android:paddingLeft="@dimen/dimen_5dp"
                                     android:singleLine="true"
-                                    android:text="Website Name"
+                                    android:text="growyourbusiness.com"
                                     android:textColor="@color/black"
-                                    android:textSize="@dimen/size_9dp" />
+                                    android:textSize="7dp" />
 
                             </LinearLayout>
                             <Space
@@ -229,9 +228,9 @@
                                     android:gravity="center_horizontal"
                                     android:paddingLeft="@dimen/dimen_5dp"
                                     android:singleLine="true"
-                                    android:text="Mobile Number"
+                                    android:text="8473948378"
                                     android:textColor="@color/black"
-                                    android:textSize="@dimen/size_9dp" />
+                                    android:textSize="7dp" />
 
                             </LinearLayout>
                             <Space
@@ -263,9 +262,9 @@
                                     android:gravity="center_horizontal"
                                     android:paddingLeft="@dimen/dimen_5dp"
                                     android:singleLine="true"
-                                    android:text="Email"
+                                    android:text="growyourbusiness@gmail.com"
                                     android:textColor="@color/black"
-                                    android:textSize="@dimen/size_9dp" />
+                                    android:textSize="7dp" />
                             </LinearLayout>
                             <Space
                                 android:layout_width="0dp"
@@ -289,16 +288,16 @@
                                 <com.brandshaastra.utils.CustomTextView
                                     android:id="@+id/business_location_details"
                                     android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
+                                    android:layout_height="match_parent"
                                     android:layout_centerHorizontal="true"
                                     android:layout_centerVertical="true"
                                     android:ellipsize="end"
                                     android:gravity="center_horizontal"
                                     android:paddingLeft="@dimen/dimen_5dp"
-                                    android:singleLine="true"
-                                    android:text="Ahmedabad"
+                                    android:singleLine="false"
+                                    android:text="growyourbusinessfdfsadfasdasdfdasdf"
                                     android:textColor="@color/black"
-                                    android:textSize="@dimen/size_9dp" />
+                                    android:textSize="7dp" />
                             </LinearLayout>
                             <Space
                                 android:layout_width="0dp"

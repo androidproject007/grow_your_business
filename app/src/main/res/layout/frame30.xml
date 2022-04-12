@@ -58,7 +58,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center">
                     <ImageView
-                        android:id="@+id/footer_mail_image141"
+                        android:id="@+id/footer_call_icon1"
                         android:layout_width="20dp"
                         android:layout_height="15dp"
 
@@ -73,7 +73,7 @@
                     android:layout_height="20dp"
                     android:gravity="center">
                     <com.brandshaastra.utils.CustomTextViewBold
-                        android:id="@+id/business_call_details1"
+                        android:id="@+id/business_call1_details"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
@@ -96,7 +96,7 @@
                 android:paddingTop="5dp">
 
                 <ImageView
-                    android:id="@+id/footer_call_image"
+                    android:id="@+id/footer_call_icon"
                     android:layout_width="20dp"
                     android:layout_height="15dp"
                     android:src="@drawable/ic_icons8_call_66"
@@ -107,7 +107,7 @@
                     android:layout_width="70dp"
                     android:layout_height="20dp"
                     android:layout_centerVertical="true"
-                    android:layout_toRightOf="@+id/footer_call_image"
+                    android:layout_toRightOf="@+id/footer_call_icon"
                     android:ellipsize="end"
                     android:paddingLeft="@dimen/dimen_5dp"
                     android:paddingTop="5dp"
@@ -116,14 +116,17 @@
                     android:textColor="#004B80"
                     android:textSize="@dimen/size_9dp" />
             </RelativeLayout>
+
             <RelativeLayout
                 android:id="@+id/bottom_sixteenth_frame_main_relative"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
                     android:layout_alignParentBottom="true">
+
                     <RelativeLayout
                         android:id="@+id/footer_relative"
                         android:layout_width="match_parent"
@@ -131,34 +134,40 @@
                         android:layout_alignParentBottom="true"
                         android:alpha="0.8"
                         android:background="#23263B">
+
                         <TextView
                             android:id="@+id/frame19_view1"
                             android:layout_width="match_parent"
                             android:layout_height="2dp"
                             android:background="@color/black" />
+
                         <LinearLayout
-                            android:id="@+id/bottom_first_frame_first_linear"
+                            android:id="@+id/bottom_layout"
                             android:layout_width="match_parent"
                             android:layout_height="20dp"
-                            android:orientation="horizontal"
                             android:background="#23263B"
-                            android:gravity="center_vertical|center_horizontal">
+                            android:gravity="center_vertical|center_horizontal"
+                            android:orientation="horizontal">
+
                             <Space
                                 android:layout_width="0dp"
                                 android:layout_height="1dp"
-                                android:layout_weight="1" ></Space>
+                                android:layout_weight="1"></Space>
+
                             <LinearLayout
                                 android:id="@+id/website_main_relative"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:gravity="center">
+
                                 <ImageView
-                                    android:id="@+id/footer_website_image"
+                                    android:id="@+id/footer_website_icon"
                                     android:layout_width="10dp"
                                     android:layout_height="10dp"
 
                                     android:src="@drawable/ic_website"
                                     android:tint="@color/white" />
+
                                 <com.brandshaastra.utils.CustomTextView
                                     android:id="@+id/business_website_details"
                                     android:layout_width="match_parent"
@@ -173,21 +182,25 @@
                                     android:textColor="@color/white"
                                     android:textSize="@dimen/size_9dp" />
                             </LinearLayout>
+
                             <Space
                                 android:layout_width="0dp"
                                 android:layout_height="1dp"
-                                android:layout_weight="1" ></Space>
+                                android:layout_weight="1"></Space>
+
                             <LinearLayout
                                 android:id="@+id/mail_main_relative"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:gravity="center">
+
                                 <ImageView
-                                    android:id="@+id/footer_mail_image"
+                                    android:id="@+id/footer_mail_icon"
                                     android:layout_width="10dp"
                                     android:layout_height="10dp"
-                                   android:src="@drawable/ic_pink_mail_28"
-                                    android:tint="@color/white"/>
+                                    android:src="@drawable/ic_pink_mail_28"
+                                    android:tint="@color/white" />
+
                                 <com.brandshaastra.utils.CustomTextView
                                     android:id="@+id/business_mail_details"
                                     android:layout_width="match_parent"
@@ -202,16 +215,19 @@
                                     android:textColor="@color/white"
                                     android:textSize="@dimen/size_9dp" />
                             </LinearLayout>
+
                             <Space
                                 android:layout_width="0dp"
                                 android:layout_height="1dp"
-                                android:layout_weight="1" ></Space>
+                                android:layout_weight="1"></Space>
+
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:gravity="center">
+
                                 <ImageView
-                                    android:id="@+id/footer_mail_image23"
+                                    android:id="@+id/footer_location_icon"
                                     android:layout_width="10dp"
                                     android:layout_height="10dp"
                                     android:src="@drawable/ic_baseline_location_on_24"
@@ -231,12 +247,14 @@
                                     android:textColor="@color/white"
                                     android:textSize="@dimen/size_9dp" />
                             </LinearLayout>
+
                             <Space
                                 android:layout_width="0dp"
                                 android:layout_height="1dp"
-                                android:layout_weight="1" ></Space>
+                                android:layout_weight="1"></Space>
                         </LinearLayout>
                     </RelativeLayout>
+
                     <RelativeLayout
                         android:id="@+id/location_main_relative"
                         android:layout_width="310dp"
@@ -245,14 +263,16 @@
                         android:background="@drawable/curved_blank_relative_5dp"
                         android:backgroundTint="#004B80"
                         android:gravity="center">
+
                         <ImageView
                             android:id="@+id/footer_location_image"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:visibility="invisible"
-                            android:src="@drawable/ic_baseline_location_on_24" />
+                            android:src="@drawable/ic_baseline_location_on_24"
+                            android:visibility="invisible" />
+
                         <com.brandshaastra.utils.CustomTextView
-                            android:id="@+id/business_location_details_address"
+                            android:id="@+id/business_address_details"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true"

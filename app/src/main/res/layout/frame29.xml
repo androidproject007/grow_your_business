@@ -62,7 +62,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:textSize="8dp"
-                        android:id="@+id/company_name"
+                        android:id="@+id/business_company_details"
                         android:textColor="@color/white"
                         android:text="websiteName"></TextView>
                 </LinearLayout>
@@ -225,7 +225,6 @@
                 android:layout_width="50dp"
                 android:layout_height="15dp"
                 android:gravity="center"
-
                 android:background="#CF144C">
                 <ImageView
                     android:id="@+id/footer_whatsapp_image"

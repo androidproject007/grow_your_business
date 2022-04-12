@@ -44,21 +44,23 @@
                     android:src="@drawable/_cancel"
                     android:visibility="gone" />
             </RelativeLayout>
+
             <RelativeLayout
                 android:id="@+id/business_logo_relative1"
                 android:layout_width="match_parent"
                 android:layout_height="15dp"
-                android:gravity="center"
+                android:layout_centerHorizontal="true"
                 android:background="@drawable/ic_header_layout_frame_39"
-                android:layout_centerHorizontal="true">
+                android:gravity="center">
+
                 <RelativeLayout
                     android:id="@+id/business_logo_relative1d"
                     android:layout_width="230dp"
                     android:layout_height="70dp"
-                    android:gravity="center"
-                    >
+                    android:gravity="center">
+
                     <TextView
-                        android:id="@+id/website_name"
+                        android:id="@+id/business_company_details"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
 
@@ -68,7 +70,7 @@
                         android:gravity="center"
                         android:text="growyourbusiness"
                         android:textColor="#fff"
-                        android:textSize="8dp"/>
+                        android:textSize="8dp" />
                 </RelativeLayout>
             </RelativeLayout>
             <!--
@@ -122,32 +124,32 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_marginBottom="35dp"
-                android:gravity="center"
                 android:alpha="0.8"
-                >
+                android:gravity="center">
+
                 <RelativeLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
+
                     <ImageView
-                        android:id="@+id/call_border_icon"
-                        android:layout_width="15sp"
-                        android:layout_height="15sp"
-                        android:src="@drawable/asset_7call_border"
-                        />
+                        android:id="@+id/footer_call_icon"
+                        android:layout_width="10sp"
+                        android:layout_height="10sp"
+                        android:src="@drawable/asset_7call_border" />
+
                     <com.brandshaastra.utils.CustomTextView
                         android:id="@+id/business_call_details"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_centerHorizontal="true"
-                        android:layout_centerVertical="true"
+                        android:layout_centerInParent="true"
+                        android:layout_toRightOf="@+id/footer_call_icon"
                         android:ellipsize="end"
-                        android:layout_toRightOf="@+id/call_border_icon"
                         android:gravity="center_horizontal"
                         android:paddingLeft="@dimen/dimen_5dp"
                         android:singleLine="true"
                         android:text="+934784895"
                         android:textColor="@color/black"
-                        android:textSize="@dimen/size_9dp" />
+                        android:textSize="7dp" />
 
 
                 </RelativeLayout>
@@ -157,11 +159,10 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
 
-                    android:layout_marginRight="@dimen/dimen_5dp"
-                    >
+                    android:layout_marginRight="@dimen/dimen_5dp">
 
                     <com.brandshaastra.utils.CustomTextView
-                        android:id="@+id/call_border_text"
+                        android:id="@+id/business_whatsapp_details"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
@@ -171,15 +172,15 @@
 
                         android:text="+384739043"
                         android:textColor="@color/black"
-                        android:textSize="@dimen/size_9dp" />
+                        android:textSize="7dp"
+                        tools:ignore="MissingClass" />
+
                     <ImageView
-                        android:id="@+id/call_border_icon_footer"
-                        android:layout_width="15sp"
-                        android:layout_height="15sp"
-                        android:layout_toRightOf="@+id/call_border_text"
-                        android:layout_marginBottom="@dimen/dimen_5dp"
-                        android:src="@drawable/asset_7call_border"
-                        />
+                        android:id="@+id/footer_call_icon1"
+                        android:layout_width="10sp"
+                        android:layout_height="10sp"
+                        android:layout_toRightOf="@+id/business_whatsapp_details"
+                        android:src="@drawable/asset_7call_border" />
 
                 </RelativeLayout>
             </RelativeLayout>
@@ -190,48 +191,49 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="15dp"
                 android:gravity="center"
                 android:alpha="0.8"
                 >
                 <RelativeLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
+
                     <ImageView
-                        android:id="@+id/location_border_icon"
-                        android:layout_width="15sp"
-                        android:layout_height="15sp"
-                        android:src="@drawable/asset_8location_border"
-                     />
+                        android:id="@+id/footer_location_icon"
+                        android:layout_width="10sp"
+                        android:layout_height="10sp"
+                        android:src="@drawable/asset_8location_border" />
+
                     <com.brandshaastra.utils.CustomTextView
-                        android:id="@+id/location_text"
+                        android:id="@+id/business_location_details"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_centerHorizontal="true"
-                        android:layout_centerVertical="true"
+                        android:layout_centerInParent="true"
+                        android:layout_toRightOf="@+id/footer_location_icon"
                         android:ellipsize="end"
-                        android:layout_toRightOf="@+id/location_border_icon"
                         android:gravity="center_horizontal"
                         android:paddingLeft="@dimen/dimen_5dp"
                         android:singleLine="true"
                         android:text="123 Anywhere,Any City"
                         android:textColor="@color/black"
-                        android:textSize="@dimen/size_9dp" />
+                        android:textSize="7dp" />
 
 
                 </RelativeLayout>
                  <RelativeLayout
-                    android:id="@+id/social_image_linear"
+                    android:id="@+id/business_socialmedia_image_relative"
                     android:layout_width="match_parent"
                     android:gravity="center"
                     android:layout_height="wrap_content"
                      android:orientation="horizontal">
-                    <ImageView
-                        android:id="@+id/twitter_icon"
-                        android:layout_width="15sp"
-                        android:layout_height="15sp"
-                        android:src="@drawable/ic_third_frame_twitter"
-                        android:tint="@color/black" />
+
+                     <ImageView
+                         android:id="@+id/twitter_icon"
+                         android:layout_width="15sp"
+                         android:layout_height="15sp"
+                         android:src="@drawable/ic_third_frame_twitter"
+                         android:tint="@color/black" />
 
                     <ImageView
                         android:id="@+id/instagram_icon"
@@ -249,13 +251,13 @@
                         android:src="@drawable/ic_third_frame_facebook"
                         android:tint="@color/black" />
 
-                    <ImageView
-                        android:id="@+id/whatsapp_icon"
-                        android:layout_width="15sp"
-                        android:layout_height="15sp"
-                        android:layout_toRightOf="@+id/facebook_icon"
-                        android:src="@drawable/ic_third_frame_whatsapp"
-                        android:tint="@color/black" />
+                     <ImageView
+                         android:id="@+id/whatsapp_icon"
+                         android:layout_width="15sp"
+                         android:layout_height="15sp"
+                         android:layout_toRightOf="@+id/facebook_icon"
+                         android:src="@drawable/ic_third_frame_whatsapp"
+                         android:tint="@color/black" />
 
 
                 </RelativeLayout>
@@ -278,15 +280,14 @@
 
                         android:text="hello@reallygreatsite.com"
                         android:textColor="@color/black"
-                        android:textSize="@dimen/size_9dp" />
+                        android:textSize="7dp" />
+
                     <ImageView
-                        android:id="@+id/email_border_icon1"
-                        android:layout_width="15sp"
-                        android:layout_height="15sp"
+                        android:id="@+id/footer_mail_icon"
+                        android:layout_width="10sp"
+                        android:layout_height="10sp"
                         android:layout_toRightOf="@+id/businessMailDetails"
-                        android:layout_marginBottom="@dimen/dimen_5dp"
-                        android:src="@drawable/asset_9email_border"
-                        />
+                        android:src="@drawable/asset_9email_border" />
 
                 </RelativeLayout>
             </RelativeLayout>
@@ -294,13 +295,27 @@
                 android:id="@+id/bottom_sixteenth_frame_main_relative"
                 android:layout_width="match_parent"
                 android:layout_height="15dp"
+                android:gravity="center"
                 android:layout_alignParentBottom="true">
+
                 <RelativeLayout
+                    android:id="@+id/footer_bg"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:layout_alignParentBottom="true"
                     android:background="@drawable/ic_footer_bottom"
-                    >
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/business_website_details"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+
+                        android:gravity="center"
+                        android:text="growyourbusiness"
+                        android:textColor="#fff"
+                        android:textSize="7dp" />
 
                 </RelativeLayout>
             </RelativeLayout>

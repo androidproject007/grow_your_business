@@ -48,7 +48,7 @@
                 </RelativeLayout>
                 <RelativeLayout
                     android:id="@+id/business_logo_relative1"
-                    android:layout_width="150dp"
+                    android:layout_width="170dp"
                     android:layout_height="15dp"
                     android:gravity="center"
                     android:layout_alignParentRight="true">
@@ -58,7 +58,7 @@
                         android:layout_height="match_parent"
                         android:background="@color/white"
                         android:layout_alignParentLeft="true"
-                        android:paddingLeft="10dp"
+
                         android:gravity="center_vertical">
                         <LinearLayout
                             android:id="@+id/test_name"
@@ -73,7 +73,7 @@
                                 android:gravity="center"
                                 android:textColor="@color/black"
                                 android:textSize="@dimen/size_9dp"
-                                android:text="websiteName"/>
+                                android:text="growyourbusiness"/>
 
                         </LinearLayout>
 
@@ -84,13 +84,11 @@
                         android:layout_height="match_parent"
                         android:layout_centerHorizontal="true"
                         android:gravity="center"
-                        android:paddingRight="10dp"
                         >
                         <ImageView
-                            android:id="@+id/twitter_icon1"
+                            android:id="@+id/header_slash_icon"
                             android:layout_width="15sp"
                             android:layout_height="15sp"
-
                             android:src="@drawable/ic_icons8_line_24__2_"
                             android:tint="@color/black" />
 
@@ -124,10 +122,10 @@
                                    android:src="@drawable/ic_third_frame_insta"
                                 android:tint="#FF914D" />
 
-                            <ImageView
+                                <ImageView
                                 android:id="@+id/facebook_icon"
-                                android:layout_width="15sp"
-                                android:layout_height="15sp"
+                                    android:layout_width="15sp"
+                                    android:layout_height="15sp"
                                    android:src="@drawable/ic_third_frame_facebook"
                                 android:tint="#FF914D" />
 
@@ -184,29 +182,29 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:id="@+id/footer_mail_image1"
+                                android:id="@+id/footer_stik_1"
                                 android:layout_width="10dp"
                                 android:layout_height="30dp"
                                 android:paddingLeft="-8dp"
                                 android:src="@drawable/ic_icons8_thick_vertical_line_50" />
 
                             <LinearLayout
-                                android:id="@+id/website_main_relative"
+                                android:id="@+id/call_main_relative"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:orientation="horizontal">
 
                                 <ImageView
-                                    android:id="@+id/footer_website_image"
+                                    android:id="@+id/footer_call_icon"
                                     android:layout_width="15sp"
                                     android:layout_height="15sp"
 
-                                    android:src="@drawable/ic_website"
+                                    android:src="@drawable/ic_call"
                                     android:tint="@color/black" />
 
                                 <com.brandshaastra.utils.CustomTextView
-                                    android:id="@+id/business_website_details"
+                                    android:id="@+id/business_call_details"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_centerHorizontal="true"
@@ -215,9 +213,9 @@
                                     android:gravity="center_horizontal"
                                     android:paddingLeft="@dimen/dimen_5dp"
                                     android:singleLine="true"
-                                    android:text="Website Name"
+                                    android:text="8384938439"
                                     android:textColor="@color/black"
-                                    android:textSize="@dimen/size_9dp" />
+                                    android:textSize="7dp" />
 
                             </LinearLayout>
 
@@ -228,7 +226,7 @@
                                 android:layout_weight="1"></Space>
 
                             <ImageView
-                                android:id="@+id/footer_mail_image22"
+                                android:id="@+id/footer_stik_2"
                                 android:layout_width="10dp"
                                 android:layout_height="30dp"
                                 android:src="@drawable/ic_icons8_thick_vertical_line_50" />
@@ -244,11 +242,11 @@
                                     android:id="@+id/footer_mail_image"
                                     android:layout_width="15sp"
                                     android:layout_height="15sp"
-                                    android:src="@drawable/ic_pink_mail_28"
+                                    android:src="@drawable/ic_third_frame_whatsapp"
                                     android:tint="@color/black" />
 
                                 <com.brandshaastra.utils.CustomTextView
-                                    android:id="@+id/business_mail_details"
+                                    android:id="@+id/business_whatsapp_details"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_centerHorizontal="true"
@@ -257,9 +255,9 @@
                                     android:gravity="center_horizontal"
                                     android:paddingLeft="@dimen/dimen_5dp"
                                     android:singleLine="true"
-                                    android:text="Email Address"
+                                    android:text="8985395834"
                                     android:textColor="@color/black"
-                                    android:textSize="@dimen/size_9dp" />
+                                    android:textSize="7dp" />
 
                             </LinearLayout>
 
@@ -270,7 +268,7 @@
                                 android:layout_weight="1"></Space>
 
                             <ImageView
-                                android:id="@+id/footer_mail_image21"
+                                android:id="@+id/footer_stik_3"
                                 android:layout_width="10dp"
                                 android:layout_height="30dp"
                                 android:src="@drawable/ic_icons8_thick_vertical_line_50" />
@@ -285,11 +283,11 @@
                                     android:id="@+id/footer_call_image1"
                                     android:layout_width="15sp"
                                     android:layout_height="15sp"
-                                    android:src="@drawable/ic_baseline_location_on_24"
+                                    android:src="@drawable/ic_mail"
                                     android:tint="@color/black" />
 
                                 <com.brandshaastra.utils.CustomTextView
-                                    android:id="@+id/business_call_details1"
+                                    android:id="@+id/business_mail_details"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_centerHorizontal="true"
@@ -298,9 +296,9 @@
                                     android:gravity="center_horizontal"
                                     android:paddingLeft="@dimen/dimen_5dp"
                                     android:singleLine="true"
-                                    android:text="Ahmedabad"
+                                    android:text="growyourbusiness@gmail.com"
                                     android:textColor="@color/black"
-                                    android:textSize="@dimen/size_9dp" />
+                                    android:textSize="7dp" />
                             </LinearLayout>
 
                             <Space
@@ -309,37 +307,36 @@
                                 android:layout_weight="1"></Space>
 
                             <ImageView
-                                android:id="@+id/footer_mail_image223"
+                                android:id="@+id/footer_stik_4"
                                 android:layout_width="10dp"
                                 android:layout_height="30dp"
                                 android:src="@drawable/ic_icons8_thick_vertical_line_50" />
 
                             <LinearLayout
-                                android:id="@+id/call_main_relative"
+                                android:id="@+id/website_main_relative"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:gravity="center">
 
                                 <ImageView
-                                    android:id="@+id/footer_call_image"
+                                    android:id="@+id/footer_website_icon"
                                     android:layout_width="15sp"
                                     android:layout_height="15sp"
-                                    android:src="@drawable/ic_call"
+                                    android:src="@drawable/ic_website"
                                     android:tint="@color/black" />
 
                                 <com.brandshaastra.utils.CustomTextView
-                                    android:id="@+id/business_call_details"
+                                    android:id="@+id/business_website_details"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_centerHorizontal="true"
                                     android:layout_centerVertical="true"
                                     android:ellipsize="end"
                                     android:gravity="center_horizontal"
-                                    android:paddingLeft="@dimen/dimen_5dp"
                                     android:singleLine="true"
-                                    android:text="Ahmedabad"
+                                    android:text="growyourbusiness.com"
                                     android:textColor="@color/black"
-                                    android:textSize="@dimen/size_9dp" />
+                                    android:textSize="7dp" />
                             </LinearLayout>
 
                             <Space
@@ -389,7 +386,7 @@
                                 android:singleLine="true"
                                 android:text="Address"
                                 android:textColor="@color/white"
-                                android:textSize="@dimen/size_9dp" />
+                                android:textSize="7dp" />
                         </RelativeLayout>
                     </RelativeLayout>
                 </RelativeLayout>

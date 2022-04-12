@@ -58,7 +58,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center">
                     <ImageView
-                        android:id="@+id/footer_mail_image141"
+                        android:id="@+id/header_call_icon1"
                         android:layout_width="20dp"
                         android:layout_height="15dp"
 
@@ -73,7 +73,7 @@
                     android:layout_height="20dp"
                     android:gravity="center">
                     <com.brandshaastra.utils.CustomTextViewBold
-                        android:id="@+id/business_call_details1"
+                        android:id="@+id/business_call_details_second"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
@@ -96,7 +96,7 @@
                 android:paddingTop="5dp">
 
                 <ImageView
-                    android:id="@+id/footer_call_image"
+                    android:id="@+id/header_call_icon"
                     android:layout_width="20dp"
                     android:layout_height="15dp"
                     android:src="@drawable/ic_icons8_call_66"
@@ -107,13 +107,13 @@
                     android:layout_width="70dp"
                     android:layout_height="20dp"
                     android:layout_centerVertical="true"
-                    android:layout_toRightOf="@+id/footer_call_image"
+                    android:layout_toRightOf="@+id/header_call_icon"
                     android:ellipsize="end"
                     android:paddingLeft="@dimen/dimen_5dp"
+                    android:paddingTop="5dp"
                     android:singleLine="true"
                     android:text="ds"
                     android:textColor="#004B80"
-                    android:paddingTop="5dp"
                     android:textSize="@dimen/size_9dp" />
             </RelativeLayout>
             <RelativeLayout
@@ -153,7 +153,7 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center">
                                 <ImageView
-                                    android:id="@+id/footer_website_image"
+                                    android:id="@+id/footer_website_icon"
                                     android:layout_width="10dp"
                                     android:layout_height="10dp"
 
@@ -169,7 +169,7 @@
                                     android:gravity="center_horizontal"
                                     android:paddingLeft="@dimen/dimen_5dp"
                                     android:singleLine="true"
-                                    android:text="Website Name"
+                                    android:text="growyourbusiness.com"
                                     android:textColor="@color/white"
                                     android:textSize="@dimen/size_9dp" />
                             </LinearLayout>
@@ -183,7 +183,7 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center">
                                 <ImageView
-                                    android:id="@+id/footer_mail_image"
+                                    android:id="@+id/footer_mail_icon"
                                     android:layout_width="10dp"
                                     android:layout_height="10dp"
                                     android:src="@drawable/ic_pink_mail_28"
@@ -198,7 +198,7 @@
                                     android:gravity="center_horizontal"
                                     android:paddingLeft="@dimen/dimen_5dp"
                                     android:singleLine="true"
-                                    android:text="Email Address"
+                                    android:text="growyourbusines@gmail.com"
                                     android:textColor="@color/white"
                                     android:textSize="@dimen/size_9dp" />
                             </LinearLayout>
@@ -211,13 +211,13 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center">
                                 <ImageView
-                                    android:id="@+id/footer_mail_image23"
+                                    android:id="@+id/footer_location_icon"
                                     android:layout_width="10dp"
                                     android:layout_height="10dp"
                                     android:src="@drawable/ic_baseline_location_on_24"
                                     android:tint="@color/white" />
                                 <com.brandshaastra.utils.CustomTextView
-                                    android:id="@+id/business_location"
+                                    android:id="@+id/business_location_details"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_centerHorizontal="true"
@@ -250,8 +250,9 @@
                             android:layout_height="wrap_content"
                             android:visibility="invisible"
                             android:src="@drawable/ic_baseline_location_on_24" />
+
                         <com.brandshaastra.utils.CustomTextView
-                            android:id="@+id/business_location_details"
+                            android:id="@+id/business_location_details1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true"

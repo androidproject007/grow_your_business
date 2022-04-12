@@ -46,7 +46,7 @@
                     android:visibility="gone" />
             </RelativeLayout>
             <RelativeLayout
-                android:id="@+id/business_logo_relative1"
+                android:id="@+id/business_socialmedia_image_relative"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
@@ -59,27 +59,29 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="4dp"
                     android:gravity="center"
-                    android:text="websiteName"
+                    android:text="websitedfdfdfdfdName"
 
                     android:textColor="#FC3E61"
                     android:textSize="@dimen/size_9dp"></TextView>
 
                 <ImageView
-                    android:id="@+id/twitter_icon1"
+                    android:id="@+id/header_slash_icon"
                     android:layout_width="15sp"
                     android:layout_height="15sp"
-                    android:layout_toRightOf="@+id/website_name"
+                    android:layout_toRightOf="@+id/business_company_details"
 
                     android:src="@drawable/ic_icons8_line_24__2_"
                     android:tint="#FC3E61" />
+
                 <ImageView
                     android:id="@+id/twitter_icon"
                     android:layout_width="15sp"
                     android:layout_height="15sp"
 
-                    android:layout_toRightOf="@+id/twitter_icon1"
+                    android:layout_toRightOf="@+id/header_slash_icon"
                     android:src="@drawable/ic_third_frame_twitter"
                     android:tint="@color/black" />
+
                 <ImageView
                     android:id="@+id/instagram_icon"
                     android:layout_width="15sp"
@@ -131,6 +133,7 @@
                     android:src="@drawable/ic_asset_5ldpif" />
 
                 <RelativeLayout
+                    android:id="@+id/footer_bg"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="5dp"
@@ -139,7 +142,7 @@
                     android:background="#FC3E61">
 
                     <ImageView
-                        android:id="@+id/whatsapp_iconc13"
+                        android:id="@+id/footer_whatsapp_icon"
                         android:layout_width="15sp"
                         android:layout_height="15sp"
                         android:layout_marginTop="2dp"
@@ -148,7 +151,7 @@
                         android:tint="@color/white" />
 
                     <ImageView
-                        android:id="@+id/footer_call_image"
+                        android:id="@+id/footer_call_icon"
                         android:layout_width="15sp"
                         android:layout_height="15sp"
                         android:layout_alignParentBottom="true"
@@ -163,12 +166,12 @@
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="4dp"
-                        android:layout_toRightOf="@+id/whatsapp_iconc13"
+                        android:layout_toRightOf="@+id/footer_whatsapp_icon"
                         android:ellipsize="end"
 
                         android:gravity="center_horizontal"
                         android:singleLine="true"
-                        android:text="Website Name"
+                        android:text="3489384939"
                         android:textColor="@color/white"
                         android:textSize="@dimen/size_9dp" />
 
@@ -180,17 +183,17 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="7dp"
                         android:layout_marginBottom="4dp"
-                        android:layout_toRightOf="@+id/whatsapp_iconc13"
+                        android:layout_toRightOf="@+id/footer_whatsapp_icon"
 
                         android:ellipsize="end"
                         android:gravity="center_horizontal"
                         android:singleLine="true"
-                        android:text="Website Name"
+                        android:text="8938403490"
                         android:textColor="@color/white"
                         android:textSize="@dimen/size_9dp" />
 
                     <ImageView
-                        android:id="@+id/website_list"
+                        android:id="@+id/footer_website_icon"
                         android:layout_width="15sp"
                         android:layout_height="15dp"
                         android:layout_marginTop="2dp"
@@ -213,22 +216,22 @@
 
                     <com.brandshaastra.utils.CustomTextView
                         android:id="@+id/business_website_details"
-                        android:layout_width="100dp"
+                        android:layout_width="140dp"
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="2dp"
-                        android:layout_toRightOf="@+id/website_list"
+                        android:layout_toRightOf="@+id/footer_website_icon"
                         android:ellipsize="end"
 
                         android:gravity="center_horizontal"
                         android:singleLine="true"
-                        android:text="Website Name"
+                        android:text="growyourbusiness.com"
                         android:textColor="@color/white"
                         android:textSize="@dimen/size_9dp" />
 
                     <com.brandshaastra.utils.CustomTextView
                         android:id="@+id/businessMailDetails"
-                        android:layout_width="100dp"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/business_website_details"
                         android:layout_centerHorizontal="true"
@@ -238,7 +241,7 @@
                         android:ellipsize="end"
                         android:gravity="center_horizontal"
                         android:singleLine="true"
-                        android:text="Website Name"
+                        android:text="growyourbusiness@gmail.com"
                         android:textColor="@color/white"
                         android:textSize="@dimen/size_9dp" />
 
@@ -254,11 +257,9 @@
 
                     <com.brandshaastra.utils.CustomTextView
                         android:id="@+id/businessLocationDetails"
-                        android:layout_width="100dp"
+                        android:layout_width="90dp"
                         android:layout_height="match_parent"
                         android:layout_centerInParent="true"
-                        android:layout_centerHorizontal="true"
-                        android:layout_centerVertical="true"
                         android:layout_marginTop="2dp"
                         android:layout_toRightOf="@+id/footerLocationImage"
                         android:ellipsize="end"

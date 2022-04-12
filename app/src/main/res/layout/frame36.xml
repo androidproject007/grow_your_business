@@ -48,35 +48,10 @@
             </RelativeLayout>
             <RelativeLayout
                 android:id="@+id/business_logo_relative1"
-                android:layout_width="230dp"
+                android:layout_width="260dp"
                 android:layout_height="30dp"
                 android:gravity="center"
                 android:layout_alignParentRight="true">
-                <RelativeLayout
-                    android:id="@+id/layout1"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/white"
-                    android:layout_alignParentLeft="true"
-                    android:paddingLeft="10dp"
-                    android:gravity="center_vertical">
-                    <LinearLayout
-                        android:id="@+id/test_name"
-                        android:layout_width="wrap_content"
-
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-                        <TextView
-                            android:id="@+id/business_company_details"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:gravity="center"
-                            android:textColor="@color/black"
-                            android:text="websiteName"></TextView>
-
-                    </LinearLayout>
-
-                </RelativeLayout>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -85,26 +60,20 @@
                     android:gravity="center"
                     android:paddingRight="10dp"
                     >
-                    <ImageView
-                        android:id="@+id/twitter_icon1"
-                        android:layout_width="20dp"
-                        android:layout_height="20dp"
-                        android:layout_margin="@dimen/dimen_5dp"
-                        android:src="@drawable/ic_icons8_line_24__2_"
-                        android:tint="@color/black" />
+
 
                 </RelativeLayout>
+
                 <RelativeLayout
-                    android:id="@+id/business_logo_relative1d"
-                    android:layout_width="230dp"
-                    android:layout_height="30dp"
-                    android:gravity="center"
+                    android:id="@+id/header_bg"
+                    android:layout_width="270dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
                     android:background="@drawable/ic_asset_734frame_border"
-                    android:backgroundTint="#FFBD59"
-                    android:layout_alignParentRight="true">
+                    android:gravity="center">
 
                     <TextView
-                        android:id="@+id/website_name"
+                        android:id="@+id/business_company_details"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentStart="true"
@@ -112,18 +81,27 @@
                         android:layout_marginLeft="4dp"
                         android:layout_marginTop="2dp"
                         android:gravity="center"
-                        android:text="websiteName"
+                        android:text="growyourbusiness"
                         android:textColor="#032552"></TextView>
 
-                    <ImageView
-                        android:id="@+id/twitter_icon1d"
-                        android:layout_width="20dp"
-                        android:layout_height="20dp"
-                        android:layout_toRightOf="@+id/website_name"
-                        android:layout_margin="@dimen/dimen_5dp"
-                        android:src="@drawable/ic_icons8_line_24__2_"
-                        android:tint="#032552" />
 
+
+                    <RelativeLayout
+                        android:id="@+id/business_socialmedia_image_relative"
+                        android:layout_toRightOf="@+id/business_company_details"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/header_slash_icon"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="@dimen/dimen_5dp"
+                            android:layout_marginTop="@dimen/dimen_5dp"
+                            android:layout_marginEnd="@dimen/dimen_5dp"
+                            android:layout_marginBottom="@dimen/dimen_5dp"
+                            android:layout_toRightOf="@+id/business_company_details"
+                            android:src="@drawable/ic_icons8_line_24__2_"
+                            android:tint="#032552" />
 
                     <ImageView
                         android:id="@+id/twitter_icon"
@@ -132,7 +110,7 @@
                         android:layout_marginTop="@dimen/dimen_5dp"
                         android:layout_marginRight="@dimen/dimen_5dp"
                         android:layout_marginBottom="@dimen/dimen_5dp"
-                        android:layout_toRightOf="@+id/twitter_icon1d"
+                        android:layout_toRightOf="@+id/header_slash_icon"
                         android:src="@drawable/ic_third_frame_twitter"
                         android:tint="@color/black" />
 
@@ -163,11 +141,11 @@
                         android:layout_width="20dp"
                         android:layout_height="20dp"
                         android:layout_marginTop="@dimen/dimen_5dp"
+                        android:layout_marginEnd="5dp"
                         android:layout_marginBottom="@dimen/dimen_5dp"
                         android:layout_toRightOf="@+id/facebook_icon"
                         android:src="@drawable/ic_third_frame_whatsapp"
-                        android:tint="@color/black"/>
-
+                        android:tint="@color/black" />
 
 
                     <!--    <ImageView
@@ -177,6 +155,7 @@
                             android:background="@drawable/blue_circuler_bg"
                             android:src="@drawable/_cancel"
                             android:visibility="gone" />-->
+                    </RelativeLayout>
                 </RelativeLayout>
             </RelativeLayout>
 
@@ -240,7 +219,7 @@
                                             android:gravity="center_horizontal"
                                             android:paddingLeft="@dimen/dimen_5dp"
                                             android:singleLine="true"
-                                            android:text="number"
+                                            android:text="975892347594"
                                             android:textColor="#032552"
                                             android:textSize="7dp"
                                             tools:ignore="MissingClass" />
@@ -256,7 +235,7 @@
                                             android:paddingLeft="@dimen/dimen_5dp"
 
                                             android:singleLine="true"
-                                            android:text="Number"
+                                            android:text="3987439847234"
                                             android:textColor="#032552"
                                             android:textSize="7dp" />
                                     </LinearLayout>
@@ -298,7 +277,7 @@
                                             android:gravity="center_horizontal"
                                             android:paddingLeft="@dimen/dimen_5dp"
                                             android:singleLine="true"
-                                            android:text="Website"
+                                            android:text="growyourbusiness.com"
                                             android:textColor="#032552"
                                             android:textSize="7dp" />
 
@@ -312,7 +291,7 @@
                                             android:gravity="center_horizontal"
                                             android:paddingLeft="@dimen/dimen_5dp"
                                             android:singleLine="true"
-                                            android:text="Email Address"
+                                            android:text="growyourbusiness@gmail.com"
                                             android:textColor="#032552"
                                             android:textSize="7dp" />
                                     </LinearLayout>
