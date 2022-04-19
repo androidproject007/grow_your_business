@@ -16,23 +16,23 @@
 
             <RelativeLayout
                 android:id="@+id/business_logo_relative"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
 
                 android:layout_marginLeft="@dimen/size_15dp"
                 android:layout_marginTop="@dimen/dimen_5dp">
                 <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_marginTop="@dimen/dimen_5dp">
                     <RelativeLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:background="@drawable/simple_curved_relative_5dp">
                         <ImageView
                             android:id="@+id/business_icon"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
 
                             android:scaleType="fitXY"
                             android:src="@drawable/brand_shaastra_logo" />
@@ -159,6 +159,7 @@
 
 
                     <LinearLayout
+                        android:id="@+id/mail_main_relative"
                         android:layout_width="wrap_content"
                         android:background="@color/white"
                         android:layout_height="18dp"
@@ -182,6 +183,7 @@
                     </LinearLayout>
 
                         <LinearLayout
+                            android:id="@+id/call_main_relative"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:background="#41B762"
@@ -212,6 +214,7 @@
 
 
                         <LinearLayout
+                            android:id="@+id/website_main_relative"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:background="#41B762"

@@ -16,8 +16,8 @@
 
             <RelativeLayout
                 android:id="@+id/business_logo_relative"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
 
                 android:layout_marginLeft="@dimen/size_15dp"
                 android:layout_marginTop="@dimen/dimen_5dp">
@@ -81,8 +81,7 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_centerHorizontal="true"
-                    android:gravity="center"
+                    android:layout_toRightOf="@+id/layout1"
                     >
 
                     <ImageView
@@ -105,9 +104,9 @@
 
 
                     <LinearLayout
-                        android:background="@drawable/asset_14social_media_frame35"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                        android:layout_height="match_parent"
+                        android:background="@drawable/asset_14social_media_frame35">
 
                     </LinearLayout>
 
@@ -158,7 +157,7 @@
                                 android:orientation="horizontal">
 
                                 <LinearLayout
-                                    android:id="@+id/website_main_relative"
+                                    android:id="@+id/mail_main_relative"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="20dp"
@@ -222,7 +221,7 @@
                                     android:src="@drawable/asset_9round_border" />
 
                                 <LinearLayout
-                                    android:id="@+id/mail_main_relative"
+                                    android:id="@+id/call_main_relative"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
@@ -284,7 +283,7 @@
                                     android:src="@drawable/asset_9round_border" />
 
                                 <LinearLayout
-                                    android:id="@+id/call_main_relative1"
+                                    android:id="@+id/website_main_relative"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:gravity="center">

@@ -174,7 +174,8 @@
                     android:textColor="@color/black"
                     android:textColorHint="@color/black"
 
-                    android:textSize="@dimen/text_size_16" />
+                    android:textSize="@dimen/text_size_16"
+                    tools:ignore="MissingClass" />
 
                 <com.brandshaastra.utils.CustomEditText
                     android:id="@+id/signup_c_address"

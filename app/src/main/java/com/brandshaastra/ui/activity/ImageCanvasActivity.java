@@ -319,6 +319,21 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
             Glide.with(this).load(businessDataDto.getImage()).placeholder(R.drawable.brand_shaastra_logo).into(binding.thirtysixthNew.businessIcon);
             Glide.with(this).load(businessDataDto.getImage()).placeholder(R.drawable.brand_shaastra_logo).into(binding.thirtysevenNew.businessIcon);
             Glide.with(this).load(businessDataDto.getImage()).placeholder(R.drawable.brand_shaastra_logo).into(binding.thirtyeightNew.businessIcon);
+            Glide.with(this).load(businessDataDto.getImage()).placeholder(R.drawable.brand_shaastra_logo).into(binding.thirtynineNew.businessIcon);
+            Glide.with(this).load(businessDataDto.getImage()).placeholder(R.drawable.brand_shaastra_logo).into(binding.fortyNew.businessIcon);
+            Glide.with(this).load(businessDataDto.getImage()).placeholder(R.drawable.brand_shaastra_logo).into(binding.fortyoneNew.businessIcon);
+            Glide.with(this).load(businessDataDto.getImage()).placeholder(R.drawable.brand_shaastra_logo).into(binding.fortytwoNew.businessIcon);
+            Glide.with(this).load(businessDataDto.getImage()).placeholder(R.drawable.brand_shaastra_logo).into(binding.fortythreeNew.businessIcon);
+            Glide.with(this).load(businessDataDto.getImage()).placeholder(R.drawable.brand_shaastra_logo).into(binding.fortyfourNew.businessIcon);
+            Glide.with(this).load(businessDataDto.getImage()).placeholder(R.drawable.brand_shaastra_logo).into(binding.fortyfiveNew.businessIcon);
+            Glide.with(this).load(businessDataDto.getImage()).placeholder(R.drawable.brand_shaastra_logo).into(binding.fortysixNew.businessIcon);
+            Glide.with(this).load(businessDataDto.getImage()).placeholder(R.drawable.brand_shaastra_logo).into(binding.fortysevenNew.businessIcon);
+            Glide.with(this).load(businessDataDto.getImage()).placeholder(R.drawable.brand_shaastra_logo).into(binding.fortyeightNew.businessIcon);
+            Glide.with(this).load(businessDataDto.getImage()).placeholder(R.drawable.brand_shaastra_logo).into(binding.fortynineNew.businessIcon);
+            Glide.with(this).load(businessDataDto.getImage()).placeholder(R.drawable.brand_shaastra_logo).into(binding.fiftyNew.businessIcon);
+            Glide.with(this).load(businessDataDto.getImage()).placeholder(R.drawable.brand_shaastra_logo).into(binding.fiftyoneNew.businessIcon);
+            Glide.with(this).load(businessDataDto.getImage()).placeholder(R.drawable.brand_shaastra_logo).into(binding.fiftytwoNew.businessIcon);
+            Glide.with(this).load(businessDataDto.getImage()).placeholder(R.drawable.brand_shaastra_logo).into(binding.fiftythreeNew.businessIcon);
 
 
             //old frame code
@@ -931,14 +946,14 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         } else if (binding.thirtyNew.mailMainRelative.getVisibility() == View.GONE) {
             setting_email_switch.setChecked(false);
         }
-      /*  if (binding.thirtyNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
+     /*   if (binding.thirtyNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
             setting_whatsapp_switch.setChecked(true);
 
         }else if(binding.thirtyNew.whatsappMainRelative.getVisibility() == View.GONE){
             setting_whatsapp_switch.setChecked(false);
 
         }*/
-       /* //radio31
+        //radio31
         if (binding.thirtyoneNew.businessSocialmediaImageRelative.getVisibility() == View.VISIBLE) {
             setting_socialmedia_switch.setChecked(true);
         } else if (binding.thirtyoneNew.businessSocialmediaImageRelative.getVisibility() == View.GONE) {
@@ -964,12 +979,12 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         } else if (binding.thirtyoneNew.mailMainRelative.getVisibility() == View.GONE) {
             setting_email_switch.setChecked(false);
         }
-       *//* if (binding.thirtyoneNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
+       /* if (binding.thirtyoneNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
             setting_whatsapp_switch.setChecked(true);
 
         }else if(binding.thirtyoneNew.whatsappMainRelative.getVisibility() == View.GONE){
             setting_whatsapp_switch.setChecked(false);
-         }*//*
+         }*/
         //radio32
         if (binding.thirtytwoNew.businessSocialmediaImageRelative.getVisibility() == View.VISIBLE) {
             setting_socialmedia_switch.setChecked(true);
@@ -996,13 +1011,13 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         } else if (binding.thirtytwoNew.mailMainRelative.getVisibility() == View.GONE) {
             setting_email_switch.setChecked(false);
         }
-       *//* if (binding.thirtytwoNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
+       /* if (binding.thirtytwoNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
             setting_whatsapp_switch.setChecked(true);
 
         }else if(binding.thirtytwoNew.whatsappMainRelative.getVisibility() == View.GONE){
             setting_whatsapp_switch.setChecked(false);
         }
-*//*
+*/
         //radio33
         if (binding.thirtythreeNew.businessSocialmediaImageRelative.getVisibility() == View.VISIBLE) {
             setting_socialmedia_switch.setChecked(true);
@@ -1029,12 +1044,12 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         } else if (binding.thirtythreeNew.mailMainRelative.getVisibility() == View.GONE) {
             setting_email_switch.setChecked(false);
         }
-        if (binding.thirtythreeNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
+        /*if (binding.thirtythreeNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
             setting_whatsapp_switch.setChecked(true);
 
         }else if(binding.thirtythreeNew.whatsappMainRelative.getVisibility() == View.GONE){
             setting_whatsapp_switch.setChecked(false);
-        }
+        }*/
 
         //radio34
         if (binding.thirtyfourNew.businessSocialmediaImageRelative.getVisibility() == View.VISIBLE) {
@@ -1062,13 +1077,13 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         } else if (binding.thirtyfourNew.mailMainRelative.getVisibility() == View.GONE) {
             setting_email_switch.setChecked(false);
         }
-        if (binding.thirtyfourNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
+       /* if (binding.thirtyfourNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
             setting_whatsapp_switch.setChecked(true);
 
         }else if(binding.thirtyfourNew.whatsappMainRelative.getVisibility() == View.GONE){
             setting_whatsapp_switch.setChecked(false);
         }
-
+*/
         //radio35
         if (binding.thirtyfiveNew.businessSocialmediaImageRelative.getVisibility() == View.VISIBLE) {
             setting_socialmedia_switch.setChecked(true);
@@ -1095,14 +1110,15 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         } else if (binding.thirtyfiveNew.mailMainRelative.getVisibility() == View.GONE) {
             setting_email_switch.setChecked(false);
         }
-        if (binding.thirtyfiveNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
+       /* if (binding.thirtyfiveNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
             setting_whatsapp_switch.setChecked(true);
 
         }else if(binding.thirtyfiveNew.whatsappMainRelative.getVisibility() == View.GONE){
             setting_whatsapp_switch.setChecked(false);
         }
-
+*/
         //radio36
+
         if (binding.thirtysixthNew.businessSocialmediaImageRelative.getVisibility() == View.VISIBLE) {
             setting_socialmedia_switch.setChecked(true);
         } else if (binding.thirtysixthNew.businessSocialmediaImageRelative.getVisibility() == View.GONE) {
@@ -1113,27 +1129,27 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         } else if (binding.thirtysixthNew.businessLogoRelative.getVisibility() == View.GONE) {
             setting_logo_switch.setChecked(false);
         }
-        if (binding.thirtysixthNew.callMainRelative.getVisibility() == View.VISIBLE) {
+       /*     if (binding.thirtysixthNew.callMainRelative.getVisibility() == View.VISIBLE) {
             setting_phone_switch.setChecked(true);
         } else if (binding.thirtysixthNew.callMainRelative.getVisibility() == View.GONE) {
             setting_phone_switch.setChecked(false);
         }
-        if (binding.thirtysixthNew.websiteMainRelative.getVisibility() == View.VISIBLE) {
+        if (binding.thirtysixthNew.businessWebsiteDetails.getVisibility() == View.VISIBLE) {
             setting_website_switch.setChecked(true);
-        } else if (binding.thirtysixthNew.websiteMainRelative.getVisibility() == View.GONE) {
+        } else if (binding.thirtysixthNew.businessWebsiteDetails.getVisibility() == View.GONE) {
             setting_website_switch.setChecked(false);
         }
         if (binding.thirtysixthNew.mailMainRelative.getVisibility() == View.VISIBLE) {
             setting_email_switch.setChecked(true);
         } else if (binding.thirtysixthNew.mailMainRelative.getVisibility() == View.GONE) {
             setting_email_switch.setChecked(false);
-        }
-        if (binding.thirtysixthNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
+        }*/
+      /*  if (binding.thirtysixthNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
             setting_whatsapp_switch.setChecked(true);
 
         }else if(binding.thirtysixthNew.whatsappMainRelative.getVisibility() == View.GONE){
             setting_whatsapp_switch.setChecked(false);
-        }
+        }*/
 
         //radio37
         if (binding.thirtysevenNew.businessSocialmediaImageRelative.getVisibility() == View.VISIBLE) {
@@ -1161,12 +1177,12 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         } else if (binding.thirtysevenNew.mailMainRelative.getVisibility() == View.GONE) {
             setting_email_switch.setChecked(false);
         }
-        if (binding.thirtysevenNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
+/*        if (binding.thirtysevenNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
             setting_whatsapp_switch.setChecked(true);
 
         }else if(binding.thirtysevenNew.whatsappMainRelative.getVisibility() == View.GONE){
             setting_whatsapp_switch.setChecked(false);
-        }
+        }*/
         //radio38
         if (binding.thirtyeightNew.businessSocialmediaImageRelative.getVisibility() == View.VISIBLE) {
             setting_socialmedia_switch.setChecked(true);
@@ -1193,14 +1209,505 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         } else if (binding.thirtyeightNew.mailMainRelative.getVisibility() == View.GONE) {
             setting_email_switch.setChecked(false);
         }
-        if (binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
+       /* if (binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
+            setting_whatsapp_switch.setChecked(true);
+
+        }else if(binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.GONE){
+            setting_whatsapp_switch.setChecked(false);
+        }*/
+        //radio39
+        if (binding.thirtynineNew.businessSocialmediaImageRelative.getVisibility() == View.VISIBLE) {
+            setting_socialmedia_switch.setChecked(true);
+        } else if (binding.thirtynineNew.businessSocialmediaImageRelative.getVisibility() == View.GONE) {
+            setting_socialmedia_switch.setChecked(false);
+        }
+        if(binding.thirtynineNew.businessLogoRelative.getVisibility() == View.VISIBLE) {
+            setting_logo_switch.setChecked(true);
+        } else if (binding.thirtynineNew.businessLogoRelative.getVisibility() == View.GONE) {
+            setting_logo_switch.setChecked(false);
+        }
+        if (binding.thirtynineNew.callMainRelative.getVisibility() == View.VISIBLE) {
+            setting_phone_switch.setChecked(true);
+        } else if (binding.thirtynineNew.callMainRelative.getVisibility() == View.GONE) {
+            setting_phone_switch.setChecked(false);
+        }
+        if (binding.thirtynineNew.websiteMainRelative.getVisibility() == View.VISIBLE) {
+            setting_website_switch.setChecked(true);
+        } else if (binding.thirtynineNew.websiteMainRelative.getVisibility() == View.GONE) {
+            setting_website_switch.setChecked(false);
+        }
+        if (binding.thirtynineNew.mailMainRelative.getVisibility() == View.VISIBLE) {
+            setting_email_switch.setChecked(true);
+        } else if (binding.thirtynineNew.mailMainRelative.getVisibility() == View.GONE) {
+            setting_email_switch.setChecked(false);
+        }
+       /* if (binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
             setting_whatsapp_switch.setChecked(true);
 
         }else if(binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.GONE){
             setting_whatsapp_switch.setChecked(false);
         }*/
 
-        //radio39
+
+        //radio40
+        if (binding.fortyNew.businessSocialmediaImageRelative.getVisibility() == View.VISIBLE) {
+            setting_socialmedia_switch.setChecked(true);
+        } else if (binding.fortyNew.businessSocialmediaImageRelative.getVisibility() == View.GONE) {
+            setting_socialmedia_switch.setChecked(false);
+        }
+        if(binding.fortyNew.businessLogoRelative.getVisibility() == View.VISIBLE) {
+            setting_logo_switch.setChecked(true);
+        } else if (binding.fortyNew.businessLogoRelative.getVisibility() == View.GONE) {
+            setting_logo_switch.setChecked(false);
+        }
+        if (binding.fortyNew.callMainRelative.getVisibility() == View.VISIBLE) {
+            setting_phone_switch.setChecked(true);
+        } else if (binding.fortyNew.callMainRelative.getVisibility() == View.GONE) {
+            setting_phone_switch.setChecked(false);
+        }
+        if (binding.fortyNew.websiteMainRelative.getVisibility() == View.VISIBLE) {
+            setting_website_switch.setChecked(true);
+        } else if (binding.fortyNew.websiteMainRelative.getVisibility() == View.GONE) {
+            setting_website_switch.setChecked(false);
+        }
+        if (binding.fortyNew.mailMainRelative.getVisibility() == View.VISIBLE) {
+            setting_email_switch.setChecked(true);
+        } else if (binding.fortyNew.mailMainRelative.getVisibility() == View.GONE) {
+            setting_email_switch.setChecked(false);
+        }
+       /* if (binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
+            setting_whatsapp_switch.setChecked(true);
+
+        }else if(binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.GONE){
+            setting_whatsapp_switch.setChecked(false);
+        }*/
+
+
+        //radio41
+        if (binding.fortyoneNew.businessSocialmediaImageRelative.getVisibility() == View.VISIBLE) {
+            setting_socialmedia_switch.setChecked(true);
+        } else if (binding.fortyoneNew.businessSocialmediaImageRelative.getVisibility() == View.GONE) {
+            setting_socialmedia_switch.setChecked(false);
+        }
+        if(binding.fortyoneNew.businessLogoRelative.getVisibility() == View.VISIBLE) {
+            setting_logo_switch.setChecked(true);
+        } else if (binding.fortyoneNew.businessLogoRelative.getVisibility() == View.GONE) {
+            setting_logo_switch.setChecked(false);
+        }
+        if (binding.fortyoneNew.callMainRelative.getVisibility() == View.VISIBLE) {
+            setting_phone_switch.setChecked(true);
+        } else if (binding.fortyoneNew.callMainRelative.getVisibility() == View.GONE) {
+            setting_phone_switch.setChecked(false);
+        }
+        /*if (binding.fortyoneNew.websiteMainRelative.getVisibility() == View.VISIBLE) {
+            setting_website_switch.setChecked(true);
+        } else if (binding.fortyoneNew.websiteMainRelative.getVisibility() == View.GONE) {
+            setting_website_switch.setChecked(false);
+        }
+        if (binding.fortyoneNew.mailMainRelative.getVisibility() == View.VISIBLE) {
+            setting_email_switch.setChecked(true);
+        } else if (binding.fortyoneNew.mailMainRelative.getVisibility() == View.GONE) {
+            setting_email_switch.setChecked(false);
+        }
+*/
+       /* if (binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
+            setting_whatsapp_switch.setChecked(true);
+
+        }else if(binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.GONE){
+            setting_whatsapp_switch.setChecked(false);
+        }*/
+
+
+        //radio42
+        if (binding.fortytwoNew.businessSocialmediaImageRelative.getVisibility() == View.VISIBLE) {
+            setting_socialmedia_switch.setChecked(true);
+        } else if (binding.fortytwoNew.businessSocialmediaImageRelative.getVisibility() == View.GONE) {
+            setting_socialmedia_switch.setChecked(false);
+        }
+        if(binding.fortytwoNew.businessLogoRelative.getVisibility() == View.VISIBLE) {
+            setting_logo_switch.setChecked(true);
+        } else if (binding.fortytwoNew.businessLogoRelative.getVisibility() == View.GONE) {
+            setting_logo_switch.setChecked(false);
+        }
+        if (binding.fortytwoNew.callMainRelative.getVisibility() == View.VISIBLE) {
+            setting_phone_switch.setChecked(true);
+        } else if (binding.fortytwoNew.callMainRelative.getVisibility() == View.GONE) {
+            setting_phone_switch.setChecked(false);
+        }
+        if (binding.fortytwoNew.websiteMainRelative.getVisibility() == View.VISIBLE) {
+            setting_website_switch.setChecked(true);
+        } else if (binding.fortytwoNew.websiteMainRelative.getVisibility() == View.GONE) {
+            setting_website_switch.setChecked(false);
+        }
+        if (binding.fortytwoNew.mailMainRelative.getVisibility() == View.VISIBLE) {
+            setting_email_switch.setChecked(true);
+        } else if (binding.fortytwoNew.mailMainRelative.getVisibility() == View.GONE) {
+            setting_email_switch.setChecked(false);
+        }
+       /* if (binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
+            setting_whatsapp_switch.setChecked(true);
+
+        }else if(binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.GONE){
+            setting_whatsapp_switch.setChecked(false);
+        }*/
+        //radio43
+        if (binding.fortythreeNew.businessSocialmediaImageRelative.getVisibility() == View.VISIBLE) {
+            setting_socialmedia_switch.setChecked(true);
+        } else if (binding.fortythreeNew.businessSocialmediaImageRelative.getVisibility() == View.GONE) {
+            setting_socialmedia_switch.setChecked(false);
+        }
+        if(binding.fortythreeNew.businessLogoRelative.getVisibility() == View.VISIBLE) {
+            setting_logo_switch.setChecked(true);
+        } else if (binding.fortythreeNew.businessLogoRelative.getVisibility() == View.GONE) {
+            setting_logo_switch.setChecked(false);
+        }
+        if (binding.fortythreeNew.callMainRelative.getVisibility() == View.VISIBLE) {
+            setting_phone_switch.setChecked(true);
+        } else if (binding.fortythreeNew.callMainRelative.getVisibility() == View.GONE) {
+            setting_phone_switch.setChecked(false);
+        }
+        if (binding.fortythreeNew.websiteMainRelative.getVisibility() == View.VISIBLE) {
+            setting_website_switch.setChecked(true);
+        } else if (binding.fortythreeNew.websiteMainRelative.getVisibility() == View.GONE) {
+            setting_website_switch.setChecked(false);
+        }
+        if (binding.fortythreeNew.mailMainRelative.getVisibility() == View.VISIBLE) {
+            setting_email_switch.setChecked(true);
+        } else if (binding.fortythreeNew.mailMainRelative.getVisibility() == View.GONE) {
+            setting_email_switch.setChecked(false);
+        }
+       /* if (binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
+            setting_whatsapp_switch.setChecked(true);
+
+        }else if(binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.GONE){
+            setting_whatsapp_switch.setChecked(false);
+        }*/
+        //radio44
+        if (binding.fortyfourNew.businessSocialmediaImageRelative.getVisibility() == View.VISIBLE) {
+
+            setting_socialmedia_switch.setChecked(true);
+        } else if (binding.fortyfourNew.businessSocialmediaImageRelative.getVisibility() == View.GONE) {
+            setting_socialmedia_switch.setChecked(false);
+        }
+        if(binding.fortyfourNew.businessLogoRelative.getVisibility() == View.VISIBLE) {
+            setting_logo_switch.setChecked(true);
+        } else if (binding.fortyfourNew.businessLogoRelative.getVisibility() == View.GONE) {
+            setting_logo_switch.setChecked(false);
+        }
+        if (binding.fortyfourNew.callMainRelative.getVisibility() == View.VISIBLE) {
+            setting_phone_switch.setChecked(true);
+        } else if (binding.fortyfourNew.callMainRelative.getVisibility() == View.GONE) {
+            setting_phone_switch.setChecked(false);
+        }
+       /* if (binding.fortyfourNew.websiteMainRelative.getVisibility() == View.VISIBLE) {
+            setting_website_switch.setChecked(true);
+        } else if (binding.fortyfourNew.websiteMainRelative.getVisibility() == View.GONE) {
+            setting_website_switch.setChecked(false);
+        }*/
+       /* if (binding.fortyfourNew.mailMainRelative.getVisibility() == View.VISIBLE) {
+            setting_email_switch.setChecked(true);
+        } else if (binding.fortyfourNew.mailMainRelative.getVisibility() == View.GONE) {
+            setting_email_switch.setChecked(false);
+        }*/
+       /* if (binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
+            setting_whatsapp_switch.setChecked(true);
+
+        }else if(binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.GONE){
+            setting_whatsapp_switch.setChecked(false);
+        }*/
+        //radio45
+        if (binding.fortyfiveNew.businessSocialmediaImageRelative.getVisibility() == View.VISIBLE) {
+            setting_socialmedia_switch.setChecked(true);
+        } else if (binding.fortyfiveNew.businessSocialmediaImageRelative.getVisibility() == View.GONE) {
+            setting_socialmedia_switch.setChecked(false);
+        }
+        if(binding.fortyfiveNew.businessLogoRelative.getVisibility() == View.VISIBLE) {
+            setting_logo_switch.setChecked(true);
+        } else if (binding.fortyfiveNew.businessLogoRelative.getVisibility() == View.GONE) {
+            setting_logo_switch.setChecked(false);
+        }
+        if (binding.fortyfiveNew.callMainRelative.getVisibility() == View.VISIBLE) {
+            setting_phone_switch.setChecked(true);
+        } else if (binding.fortyfiveNew.callMainRelative.getVisibility() == View.GONE) {
+            setting_phone_switch.setChecked(false);
+        }
+        if (binding.fortyfiveNew.websiteMainRelative.getVisibility() == View.VISIBLE) {
+            setting_website_switch.setChecked(true);
+        } else if (binding.fortyfiveNew.websiteMainRelative.getVisibility() == View.GONE) {
+            setting_website_switch.setChecked(false);
+        }
+        if (binding.fortyfiveNew.mailMainRelative.getVisibility() == View.VISIBLE) {
+            setting_email_switch.setChecked(true);
+        } else if (binding.fortyfiveNew.mailMainRelative.getVisibility() == View.GONE) {
+            setting_email_switch.setChecked(false);
+        }
+       /* if (binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
+            setting_whatsapp_switch.setChecked(true);
+
+        }else if(binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.GONE){
+            setting_whatsapp_switch.setChecked(false);
+        }*/
+        //radio46
+        if (binding.fortysixNew.businessSocialmediaImageRelative.getVisibility() == View.VISIBLE) {
+            setting_socialmedia_switch.setChecked(true);
+        } else if (binding.fortysixNew.businessSocialmediaImageRelative.getVisibility() == View.GONE) {
+            setting_socialmedia_switch.setChecked(false);
+        }
+        if(binding.fortysixNew.businessLogoRelative.getVisibility() == View.VISIBLE) {
+            setting_logo_switch.setChecked(true);
+        } else if (binding.fortysixNew.businessLogoRelative.getVisibility() == View.GONE) {
+            setting_logo_switch.setChecked(false);
+        }
+        if (binding.fortysixNew.callMainRelative.getVisibility() == View.VISIBLE) {
+            setting_phone_switch.setChecked(true);
+        } else if (binding.fortysixNew.callMainRelative.getVisibility() == View.GONE) {
+            setting_phone_switch.setChecked(false);
+        }
+      /*  if (binding.fortysixNew.websiteMainRelative.getVisibility() == View.VISIBLE) {
+            setting_website_switch.setChecked(true);
+        } else if (binding.fortysixNew.websiteMainRelative.getVisibility() == View.GONE) {
+            setting_website_switch.setChecked(false);
+        }*/
+        if (binding.fortysixNew.mailMainRelative.getVisibility() == View.VISIBLE) {
+            setting_email_switch.setChecked(true);
+        } else if (binding.fortysixNew.mailMainRelative.getVisibility() == View.GONE) {
+            setting_email_switch.setChecked(false);
+        }
+       /* if (binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
+            setting_whatsapp_switch.setChecked(true);
+
+        }else if(binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.GONE){
+            setting_whatsapp_switch.setChecked(false);
+        }*/
+        //radio47
+        if (binding.fortysevenNew.businessSocialmediaImageRelative.getVisibility() == View.VISIBLE) {
+            setting_socialmedia_switch.setChecked(true);
+        } else if (binding.fortysevenNew.businessSocialmediaImageRelative.getVisibility() == View.GONE) {
+            setting_socialmedia_switch.setChecked(false);
+        }
+        if(binding.fortysevenNew.businessLogoRelative.getVisibility() == View.VISIBLE) {
+            setting_logo_switch.setChecked(true);
+        } else if (binding.fortysevenNew.businessLogoRelative.getVisibility() == View.GONE) {
+            setting_logo_switch.setChecked(false);
+        }
+        if (binding.fortysevenNew.callMainRelative.getVisibility() == View.VISIBLE) {
+            setting_phone_switch.setChecked(true);
+        } else if (binding.fortysevenNew.callMainRelative.getVisibility() == View.GONE) {
+            setting_phone_switch.setChecked(false);
+        }
+        if (binding.fortysevenNew.websiteMainRelative.getVisibility() == View.VISIBLE) {
+            setting_website_switch.setChecked(true);
+        } else if (binding.fortysevenNew.websiteMainRelative.getVisibility() == View.GONE) {
+            setting_website_switch.setChecked(false);
+        }
+        if (binding.fortysevenNew.mailMainRelative.getVisibility() == View.VISIBLE) {
+            setting_email_switch.setChecked(true);
+        } else if (binding.fortysevenNew.mailMainRelative.getVisibility() == View.GONE) {
+            setting_email_switch.setChecked(false);
+        }
+       /* if (binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
+            setting_whatsapp_switch.setChecked(true);
+
+        }else if(binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.GONE){
+            setting_whatsapp_switch.setChecked(false);
+        }*/
+
+        //radio48
+        /*if (binding.fortyeightNew.businessSocialmediaImageRelative.getVisibility() == View.VISIBLE) {
+            setting_socialmedia_switch.setChecked(true);
+        } else if (binding.fortyeightNew.businessSocialmediaImageRelative.getVisibility() == View.GONE) {
+            setting_socialmedia_switch.setChecked(false);
+        }*/
+        if(binding.fortyeightNew.businessLogoRelative.getVisibility() == View.VISIBLE) {
+            setting_logo_switch.setChecked(true);
+        } else if (binding.fortyeightNew.businessLogoRelative.getVisibility() == View.GONE) {
+            setting_logo_switch.setChecked(false);
+        }
+       /* if (binding.fortyeightNew.callMainRelative.getVisibility() == View.VISIBLE) {
+            setting_phone_switch.setChecked(true);
+        } else if (binding.fortyeightNew.callMainRelative.getVisibility() == View.GONE) {
+            setting_phone_switch.setChecked(false);
+        }
+        if (binding.fortyeightNew.websiteMainRelative.getVisibility() == View.VISIBLE) {
+            setting_website_switch.setChecked(true);
+        } else if (binding.fortyeightNew.websiteMainRelative.getVisibility() == View.GONE) {
+            setting_website_switch.setChecked(false);
+        }
+        if (binding.fortyeightNew.mailMainRelative.getVisibility() == View.VISIBLE) {
+            setting_email_switch.setChecked(true);
+        } else if (binding.fortyeightNew.mailMainRelative.getVisibility() == View.GONE) {
+            setting_email_switch.setChecked(false);
+        }*/
+       /* if (binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
+            setting_whatsapp_switch.setChecked(true);
+
+        }else if(binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.GONE){
+            setting_whatsapp_switch.setChecked(false);
+        }*/
+
+        //radio49
+        if (binding.fortynineNew.businessSocialmediaImageRelative.getVisibility() == View.VISIBLE) {
+            setting_socialmedia_switch.setChecked(true);
+        } else if (binding.fortynineNew.businessSocialmediaImageRelative.getVisibility() == View.GONE) {
+            setting_socialmedia_switch.setChecked(false);
+        }
+        if(binding.fortynineNew.businessLogoRelative.getVisibility() == View.VISIBLE) {
+            setting_logo_switch.setChecked(true);
+        } else if (binding.fortynineNew.businessLogoRelative.getVisibility() == View.GONE) {
+            setting_logo_switch.setChecked(false);
+        }
+        if (binding.fortynineNew.callMainRelative.getVisibility() == View.VISIBLE) {
+            setting_phone_switch.setChecked(true);
+        } else if (binding.fortynineNew.callMainRelative.getVisibility() == View.GONE) {
+            setting_phone_switch.setChecked(false);
+        }
+        if (binding.fortynineNew.websiteMainRelative.getVisibility() == View.VISIBLE) {
+            setting_website_switch.setChecked(true);
+        } else if (binding.fortynineNew.websiteMainRelative.getVisibility() == View.GONE) {
+            setting_website_switch.setChecked(false);
+        }
+        if (binding.fortynineNew.mailMainRelative.getVisibility() == View.VISIBLE) {
+            setting_email_switch.setChecked(true);
+        } else if (binding.fortynineNew.mailMainRelative.getVisibility() == View.GONE) {
+            setting_email_switch.setChecked(false);
+        }
+       /* if (binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
+            setting_whatsapp_switch.setChecked(true);
+
+        }else if(binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.GONE){
+            setting_whatsapp_switch.setChecked(false);
+        }*/
+
+        //radio50
+        if (binding.fiftyNew.businessSocialmediaImageRelative.getVisibility() == View.VISIBLE) {
+            setting_socialmedia_switch.setChecked(true);
+        } else if (binding.fiftyNew.businessSocialmediaImageRelative.getVisibility() == View.GONE) {
+            setting_socialmedia_switch.setChecked(false);
+        }
+        if(binding.fiftyNew.businessLogoRelative.getVisibility() == View.VISIBLE) {
+            setting_logo_switch.setChecked(true);
+        } else if (binding.fiftyNew.businessLogoRelative.getVisibility() == View.GONE) {
+            setting_logo_switch.setChecked(false);
+        }
+        if (binding.fiftyNew.callMainRelative.getVisibility() == View.VISIBLE) {
+            setting_phone_switch.setChecked(true);
+        } else if (binding.fiftyNew.callMainRelative.getVisibility() == View.GONE) {
+            setting_phone_switch.setChecked(false);
+        }
+        if (binding.fiftyNew.websiteMainRelative.getVisibility() == View.VISIBLE) {
+            setting_website_switch.setChecked(true);
+        } else if (binding.fiftyNew.websiteMainRelative.getVisibility() == View.GONE) {
+            setting_website_switch.setChecked(false);
+        }
+        if (binding.fiftyNew.mailMainRelative.getVisibility() == View.VISIBLE) {
+            setting_email_switch.setChecked(true);
+        } else if (binding.fiftyNew.mailMainRelative.getVisibility() == View.GONE) {
+            setting_email_switch.setChecked(false);
+        }
+       /* if (binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
+            setting_whatsapp_switch.setChecked(true);
+
+        }else if(binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.GONE){
+            setting_whatsapp_switch.setChecked(false);
+        }*/
+        //radio51
+        if (binding.fiftyoneNew.businessSocialmediaImageRelative.getVisibility() == View.VISIBLE) {
+            setting_socialmedia_switch.setChecked(true);
+        } else if (binding.fiftyoneNew.businessSocialmediaImageRelative.getVisibility() == View.GONE) {
+            setting_socialmedia_switch.setChecked(false);
+        }
+        if(binding.fiftyoneNew.businessLogoRelative.getVisibility() == View.VISIBLE) {
+            setting_logo_switch.setChecked(true);
+        } else if (binding.fiftyoneNew.businessLogoRelative.getVisibility() == View.GONE) {
+            setting_logo_switch.setChecked(false);
+        }
+        if (binding.fiftyoneNew.callMainRelative.getVisibility() == View.VISIBLE) {
+            setting_phone_switch.setChecked(true);
+        } else if (binding.fiftyoneNew.callMainRelative.getVisibility() == View.GONE) {
+            setting_phone_switch.setChecked(false);
+        }
+        if (binding.fiftyoneNew.websiteMainRelative.getVisibility() == View.VISIBLE) {
+            setting_website_switch.setChecked(true);
+        } else if (binding.fiftyoneNew.websiteMainRelative.getVisibility() == View.GONE) {
+            setting_website_switch.setChecked(false);
+        }
+        if (binding.fiftyoneNew.mailMainRelative.getVisibility() == View.VISIBLE) {
+            setting_email_switch.setChecked(true);
+        } else if (binding.fiftyoneNew.mailMainRelative.getVisibility() == View.GONE) {
+            setting_email_switch.setChecked(false);
+        }
+       /* if (binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
+            setting_whatsapp_switch.setChecked(true);
+
+        }else if(binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.GONE){
+            setting_whatsapp_switch.setChecked(false);
+        }*/
+        //radio52
+        if (binding.fiftytwoNew.businessSocialmediaImageRelative.getVisibility() == View.VISIBLE) {
+            setting_socialmedia_switch.setChecked(true);
+        } else if (binding.fiftytwoNew.businessSocialmediaImageRelative.getVisibility() == View.GONE) {
+            setting_socialmedia_switch.setChecked(false);
+        }
+        if(binding.fiftytwoNew.businessLogoRelative.getVisibility() == View.VISIBLE) {
+            setting_logo_switch.setChecked(true);
+        } else if (binding.fiftytwoNew.businessLogoRelative.getVisibility() == View.GONE) {
+            setting_logo_switch.setChecked(false);
+        }
+        if (binding.fiftytwoNew.callMainRelative.getVisibility() == View.VISIBLE) {
+            setting_phone_switch.setChecked(true);
+        } else if (binding.fiftytwoNew.callMainRelative.getVisibility() == View.GONE) {
+            setting_phone_switch.setChecked(false);
+        }
+        if (binding.fiftytwoNew.websiteMainRelative.getVisibility() == View.VISIBLE) {
+            setting_website_switch.setChecked(true);
+        } else if (binding.fiftytwoNew.websiteMainRelative.getVisibility() == View.GONE) {
+            setting_website_switch.setChecked(false);
+        }
+        if (binding.fiftytwoNew.mailMainRelative.getVisibility() == View.VISIBLE) {
+            setting_email_switch.setChecked(true);
+        } else if (binding.fiftytwoNew.mailMainRelative.getVisibility() == View.GONE) {
+            setting_email_switch.setChecked(false);
+        }
+       /* if (binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
+            setting_whatsapp_switch.setChecked(true);
+
+        }else if(binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.GONE){
+            setting_whatsapp_switch.setChecked(false);
+        }*/
+        //radio53
+        if (binding.fiftythreeNew.businessSocialmediaImageRelative.getVisibility() == View.VISIBLE) {
+            setting_socialmedia_switch.setChecked(true);
+        } else if (binding.fiftythreeNew.businessSocialmediaImageRelative.getVisibility() == View.GONE) {
+            setting_socialmedia_switch.setChecked(false);
+        }
+        if(binding.fiftythreeNew.businessLogoRelative.getVisibility() == View.VISIBLE) {
+            setting_logo_switch.setChecked(true);
+        } else if (binding.fiftythreeNew.businessLogoRelative.getVisibility() == View.GONE) {
+            setting_logo_switch.setChecked(false);
+        }
+        if (binding.fiftythreeNew.callMainRelative.getVisibility() == View.VISIBLE) {
+            setting_phone_switch.setChecked(true);
+        } else if (binding.fiftythreeNew.callMainRelative.getVisibility() == View.GONE) {
+            setting_phone_switch.setChecked(false);
+        }
+        if (binding.fiftythreeNew.websiteMainRelative.getVisibility() == View.VISIBLE) {
+            setting_website_switch.setChecked(true);
+        } else if (binding.fiftythreeNew.websiteMainRelative.getVisibility() == View.GONE) {
+            setting_website_switch.setChecked(false);
+        }
+        if (binding.fiftythreeNew.mailMainRelative.getVisibility() == View.VISIBLE) {
+            setting_email_switch.setChecked(true);
+        } else if (binding.fiftythreeNew.mailMainRelative.getVisibility() == View.GONE) {
+            setting_email_switch.setChecked(false);
+        }
+       /* if (binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.VISIBLE){
+            setting_whatsapp_switch.setChecked(true);
+
+        }else if(binding.thirtyeightNew.whatsappMainRelative.getVisibility() == View.GONE){
+            setting_whatsapp_switch.setChecked(false);
+        }*/
+
+
         //old frame condition
 
 
@@ -1303,11 +1810,11 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
     private void getThemeData() {
 
         themeList = new ArrayList<>();
-        for (int i = 1; i < 29; i++) {
+        for (int i = 1; i < 54; i++) {
 
 //           themeList.add("https://webknight.co.in/grow_your_bussiness/assets/webp/frame_img_" + i + ".webp");
-            themeList.add("http://thebrandshaastra.com/admin/assets/frame/frame_img_" + i + ".webp");
-
+            //themeList.add("frame_img_" + i + ".webp");
+            themeList.add("http://thebrandshaastra.com/admin/assets/frame1/frame_img_" + i + ".webp");
         }
         themeAdapter = new ThemeAdapter(ImageCanvasActivity.this, themeList, this);
         binding.themes.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
@@ -1348,6 +1855,34 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+
+
+                //old layout
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
@@ -1379,6 +1914,31 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
@@ -1409,6 +1969,31 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
@@ -1441,6 +2026,31 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
@@ -1472,6 +2082,31 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
@@ -1503,6 +2138,31 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
@@ -1534,6 +2194,31 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
@@ -1565,6 +2250,31 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
@@ -1596,6 +2306,31 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
@@ -1627,6 +2362,31 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
@@ -1658,6 +2418,31 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
@@ -1689,6 +2474,31 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
@@ -1720,6 +2530,31 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
@@ -1750,6 +2585,31 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
@@ -1781,6 +2641,31 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
@@ -1811,6 +2696,31 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
@@ -1841,6 +2751,31 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
@@ -1871,6 +2806,31 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
@@ -1901,6 +2861,31 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
@@ -1931,6 +2916,31 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
@@ -1961,6 +2971,31 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
@@ -1992,6 +3027,31 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
@@ -2022,6 +3082,31 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.VISIBLE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
@@ -2052,6 +3137,31 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.VISIBLE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
@@ -2083,6 +3193,31 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.VISIBLE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
@@ -2114,7 +3249,32 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
-                binding.twentysixFrameInclude.setVisibility(View.VISIBLE);
+                binding.firstFrameInclude.setVisibility(View.VISIBLE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
 
@@ -2145,8 +3305,33 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.VISIBLE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
-                binding.twentysevenFrameInclude.setVisibility(View.VISIBLE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.GONE);
 
                 break;
@@ -2176,9 +3361,1490 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                 binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
                 binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.VISIBLE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
+
+                break;
+            case 28:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.VISIBLE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
+
+                break;
+            case 29:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.VISIBLE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
+
+                break;
+            case 30:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.VISIBLE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
+
+                break;
+            case 31:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.VISIBLE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
+
+                break;
+            case 32:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.VISIBLE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
+
+                break;
+            case 33:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.VISIBLE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
+
+                break;
+            case 34:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.VISIBLE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
+
+                break;
+            case 35:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.VISIBLE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
+
+                break;
+            case 36:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.VISIBLE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
+
+                break;
+            case 37:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.VISIBLE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
+
+                break;
+            case 38:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.VISIBLE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
+
+                break;
+            case 39:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.VISIBLE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
+
+                break;
+            case 40:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.VISIBLE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
+
+                break;
+            case 41:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.VISIBLE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
+
+                break;
+            case 42:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.VISIBLE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
+
+                break;
+            case 43:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.VISIBLE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
+
+                break;
+            case 44:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.VISIBLE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
+
+                break;
+            case 45:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.VISIBLE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
+
+                break;
+            case 46:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.VISIBLE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
+
+                break;
+            case 47:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.VISIBLE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
+
+                break;
+            case 48:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.VISIBLE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
+
+                break;
+            case 49:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.VISIBLE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
+
+                break;
+            case 50:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.VISIBLE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
+
+                break;
+            case 51:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
+                binding.twentysevenFrameInclude.setVisibility(View.VISIBLE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
+
+                break;
+            case 52:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
                 binding.twentysixFrameInclude.setVisibility(View.GONE);
                 binding.twentysevenFrameInclude.setVisibility(View.GONE);
                 binding.twentyeightFrameInclude.setVisibility(View.VISIBLE);
+
+                break;
+            case 53:
+                binding.firstFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirdFrameIncludeNew.setVisibility(View.GONE);
+                binding.secondFrameIncludeNew.setVisibility(View.GONE);
+                binding.forthFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifthFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.eightFrameIncludeNew.setVisibility(View.GONE);
+                binding.ninethFrameIncludeNew.setVisibility(View.GONE);
+                binding.tenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eleventhFrameIncludeNew.setVisibility(View.GONE);
+                binding.twelvethFrameIncludeNew.setVisibility(View.GONE);
+                binding.thirteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fourteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.fifteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.sixteenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.seventeenthFrameIncludeNew.setVisibility(View.GONE);
+                binding.eighteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.nineteenFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyoneFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentytwoFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentythreeFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfourFrameIncludeNew.setVisibility(View.GONE);
+                binding.twentyfiveFrameIncludeNew.setVisibility(View.GONE);
+                binding.firstFrameInclude.setVisibility(View.GONE);
+                binding.secondFrameInclude.setVisibility(View.GONE);
+                binding.thirdFrameInclude.setVisibility(View.GONE);
+                binding.forthFrameInclude.setVisibility(View.GONE);
+                binding.fifthFrameInclude.setVisibility(View.GONE);
+                binding.sixthFrameInclude.setVisibility(View.GONE);
+                binding.seventhFrameInclude.setVisibility(View.GONE);
+                binding.eightFrameInclude.setVisibility(View.GONE);
+                binding.ninethFrameInclude.setVisibility(View.GONE);
+                binding.tenthFrameInclude.setVisibility(View.GONE);
+                binding.eleventhFrameInclude.setVisibility(View.GONE);
+                binding.twelvethFrameInclude.setVisibility(View.GONE);
+                binding.thirteenFrameInclude.setVisibility(View.GONE);
+                binding.fourteenFrameInclude.setVisibility(View.GONE);
+                binding.fifteenFrameInclude.setVisibility(View.GONE);
+                binding.sixteenthFrameInclude.setVisibility(View.GONE);
+                binding.seventeenthFrameInclude.setVisibility(View.GONE);
+                binding.eighteenFrameInclude.setVisibility(View.GONE);
+                binding.nineteenFrameInclude.setVisibility(View.GONE);
+                binding.twentyFrameInclude.setVisibility(View.GONE);
+                binding.twentyoneFrameInclude.setVisibility(View.GONE);
+                binding.twentytwoFrameInclude.setVisibility(View.GONE);
+                binding.twentythreeFrameInclude.setVisibility(View.GONE);
+                binding.twentyfourFrameInclude.setVisibility(View.GONE);
+                binding.twentyfiveFrameInclude.setVisibility(View.GONE);
+                binding.twentysixFrameInclude.setVisibility(View.GONE);
+                binding.twentysevenFrameInclude.setVisibility(View.GONE);
+                binding.twentyeightFrameInclude.setVisibility(View.GONE);
 
                 break;
             default:
@@ -3996,8 +6662,9 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
 
 
                                 //theme39
-                                binding.thirtynineNew.footerBg.setBackgroundColor(selectedColor);
+//                                binding.thirtynineNew.footerBg.setBackgroundColor(selectedColor);
                                 binding.thirtynineNew.businessLogoRelative1.setBackgroundColor(selectedColor);
+
 
 
                                 //theme40
@@ -4006,11 +6673,11 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                                 //theme41
 
                                 //theme42
-                                binding.fortytwoNew.callMainRelative.setBackgroundColor(selectedColor);
+                              /*  binding.fortytwoNew.callMainRelative.setBackgroundColor(selectedColor);
                                 binding.fortytwoNew.mailMainRelative12.setBackgroundColor(selectedColor);
                                 binding.fortytwoNew.mailMainRelative112.setBackgroundColor(selectedColor);
                                 binding.fortytwoNew.mailMainRelative1234.setBackgroundColor(selectedColor);
-
+*/
                                 //theme43
 //                                binding.fortythreeNew.footerRelative.setBackgroundColor(selectedColor);
 
@@ -4358,7 +7025,7 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
                                 binding.thirtytwoNew.instagramIcon.setColorFilter(selectedColor);
                                 binding.thirtytwoNew.facebookIcon.setColorFilter(selectedColor);
                                 binding.thirtytwoNew.twitterIcon.setColorFilter(selectedColor);
-                                binding.thirtytwoNew.headerSlashIcon.setColorFilter(selectedColor);
+                              /*  binding.thirtytwoNew.headerSlashIcon.setColorFilter(selectedColor);*/
                                 binding.thirtytwoNew.whatsappIcon.setColorFilter(selectedColor);
                                 binding.thirtytwoNew.businessCompanyDetails.setTextColor(selectedColor);
 
@@ -5033,117 +7700,239 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         //show_whatsapp29
         binding.twentynineNew.whatsappMainRelative.setVisibility(View.VISIBLE);
         binding.twentynineNew.footerWhatsappImage.setVisibility(View.VISIBLE);
-    }
+        binding.twentynineNew.whatsappIcon.setVisibility(View.VISIBLE);
+        //show_whatsapp30
+
+        //show_whatsapp31
+        binding.thirtyoneNew.whatsappIcon.setVisibility(View.VISIBLE);
+
+        //show_whatsapp32
+        binding.thirtytwoNew.whatsappMailRelative.setVisibility(View.VISIBLE);
+        binding.thirtytwoNew.footerStik2.setVisibility(View.VISIBLE);
+        binding.thirtytwoNew.whatsappIcon.setVisibility(View.VISIBLE);
+
+        //show_whatsapp33
+        binding.thirtythreeNew.businessWhatsappDetails.setVisibility(View.VISIBLE);
+        binding.thirtythreeNew.footerWhatsappIcon.setVisibility(View.VISIBLE);
+        binding.thirtythreeNew.whatsappIcon.setVisibility(View.VISIBLE);
+
+        //show_whatsapp34
+        binding.thirtyfourNew.businessWhatsappDetails.setVisibility(View.VISIBLE);
+        binding.thirtyfourNew.whatsappIcon.setVisibility(View.VISIBLE);
+
+        //show_whatsapp35
+
+        //show_whatsapp36
+        binding.thirtysixthNew.whatsappIcon.setVisibility(View.VISIBLE);
+
+        //show_whatsapp37
+        binding.thirtysevenNew.whatsappIcon.setVisibility(View.VISIBLE);
+        //show_whatsapp38
+        binding.thirtyeightNew.whatsappIcon.setVisibility(View.VISIBLE);
+        //show_whatsapp39
+        binding.thirtynineNew.whatsappIcon.setVisibility(View.VISIBLE);
+        binding.thirtynineNew.businessWhatsappDetails.setVisibility(View.VISIBLE);
+        //show_whatsapp40
+        binding.fortyNew.whatsappIcon.setVisibility(View.VISIBLE);
+        //show_whatsapp41
+        binding.fortyoneNew.whatsappIcon.setVisibility(View.VISIBLE);
+        //show_whatsapp42
+        binding.fortytwoNew.whatsappIcon.setVisibility(View.VISIBLE);
+        //show_whatsapp43
+        binding.fortythreeNew.whatsappIcon.setVisibility(View.VISIBLE);
+        //show_whatsapp44
+        binding.fortyfourNew.whatsappIcon.setVisibility(View.VISIBLE);
+        //show_whatsapp45
+        binding.fortyfiveNew.whatsappIcon.setVisibility(View.VISIBLE);
+        //show_whatsapp46
+        binding.fortysixNew.businessWhatsappDetails.setVisibility(View.VISIBLE);
+        binding.fortysixNew.whatsappIcon.setVisibility(View.VISIBLE);
+        //show_whatsapp47
+        binding.fortysevenNew.whatsappIcon.setVisibility(View.VISIBLE);
+        //show_whatsapp48
+        //show_whatsapp49
+        binding.fortynineNew.footerWhatsappIcon.setVisibility(View.VISIBLE);
+        //show_whatsapp50
+        binding.fiftyNew.whatsappIcon.setVisibility(View.VISIBLE);
+        //show_whatsapp51
+
+        //show_whatsapp52
+        binding.fiftytwoNew.whatsappIcon.setVisibility(View.VISIBLE);
+        //show_whatsapp53
+        binding.fiftythreeNew.whatsappIcon.setVisibility(View.VISIBLE);
+        }
     private void hide_whatsapp(){
         //hide_whatsapp29
 
         binding.twentynineNew.whatsappMainRelative.setVisibility(View.INVISIBLE);
         binding.twentynineNew.footerWhatsappImage.setVisibility(View.INVISIBLE);
+        binding.twentynineNew.whatsappIcon.setVisibility(View.INVISIBLE);
+        //hide_whatsapp30
+
+        //hide_whatsapp31
+        binding.thirtyoneNew.whatsappIcon.setVisibility(View.INVISIBLE);
+
+        //hide_whatsapp32
+        binding.thirtytwoNew.whatsappMailRelative.setVisibility(View.INVISIBLE);
+        binding.thirtytwoNew.footerStik2.setVisibility(View.INVISIBLE);
+        binding.thirtytwoNew.whatsappIcon.setVisibility(View.INVISIBLE);
+
+        //hide_whatsapp33
+        binding.thirtythreeNew.businessWhatsappDetails.setVisibility(View.INVISIBLE);
+        binding.thirtythreeNew.footerWhatsappIcon.setVisibility(View.INVISIBLE);
+        binding.thirtythreeNew.whatsappIcon.setVisibility(View.INVISIBLE);
+
+        //hide_whatsapp34
+        binding.thirtyfourNew.businessWhatsappDetails.setVisibility(View.INVISIBLE);
+        binding.thirtyfourNew.whatsappIcon.setVisibility(View.INVISIBLE);
+
+        //hide_whatsapp35
+
+        //hide_whatsapp36
+        binding.thirtysixthNew.whatsappIcon.setVisibility(View.INVISIBLE);
+
+        //hide_whatsapp37
+        binding.thirtysevenNew.whatsappIcon.setVisibility(View.INVISIBLE);
+        //hide_whatsapp38
+        binding.thirtyeightNew.whatsappIcon.setVisibility(View.INVISIBLE);
+        //hide_whatsapp39
+        binding.thirtynineNew.whatsappIcon.setVisibility(View.INVISIBLE);
+        binding.thirtynineNew.businessWhatsappDetails.setVisibility(View.INVISIBLE);
+        //hide_whatsapp40
+        binding.fortyNew.whatsappIcon.setVisibility(View.INVISIBLE);
+        //hide_whatsapp41
+        binding.fortyoneNew.whatsappIcon.setVisibility(View.INVISIBLE);
+        //hide_whatsapp42
+        binding.fortytwoNew.whatsappIcon.setVisibility(View.INVISIBLE);
+        //hide_whatsapp43
+        binding.fortythreeNew.whatsappIcon.setVisibility(View.INVISIBLE);
+        //hide_whatsapp44
+        binding.fortyfourNew.whatsappIcon.setVisibility(View.INVISIBLE);
+        //hide_whatsapp45
+        binding.fortyfiveNew.whatsappIcon.setVisibility(View.INVISIBLE);
+        //hide_whatsapp46
+        binding.fortysixNew.businessWhatsappDetails.setVisibility(View.INVISIBLE);
+        binding.fortysixNew.whatsappIcon.setVisibility(View.INVISIBLE);
+        //hide_whatsapp47
+        binding.fortysevenNew.whatsappIcon.setVisibility(View.INVISIBLE);
+        //hide_whatsapp48
+        //hide_whatsapp49
+        binding.fortynineNew.footerWhatsappIcon.setVisibility(View.INVISIBLE);
+        //hide_whatsapp50
+        binding.fiftyNew.whatsappIcon.setVisibility(View.INVISIBLE);
+        //hide_whatsapp51
+
+        //hide_whatsapp52
+        binding.fiftytwoNew.whatsappIcon.setVisibility(View.INVISIBLE);
+        //hide_whatsapp53
+        binding.fiftythreeNew.whatsappIcon.setVisibility(View.INVISIBLE);
     }
 
 
 
     private void show_website() {
-        //new frame code
+            //new frame code
 
-        //show_website29
-        binding.twentynineNew.websiteMainRelative.setVisibility(View.VISIBLE);
-        binding.twentynineNew.footerWebsiteImage.setVisibility(View.VISIBLE);
-        //show_website30
-        binding.thirtyNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
-        binding.thirtyNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
-        //show_website31
-        binding.thirtyoneNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
-        binding.thirtyoneNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
+            //show_website29
+            binding.twentynineNew.websiteMainRelative.setVisibility(View.VISIBLE);
+            binding.twentynineNew.footerWebsiteImage.setVisibility(View.VISIBLE);
+            //show_website30
+            binding.thirtyNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
+            binding.thirtyNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
+            //show_website31
+            binding.thirtyoneNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
+            binding.thirtyoneNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
 
-        //show_website32
-        binding.thirtytwoNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
-        binding.thirtytwoNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
-        //show_website33
-        binding.thirtythreeNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
-        binding.thirtythreeNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
-        //show_website34
-        binding.thirtyfourNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
+            //show_website32
+            binding.thirtytwoNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
+            binding.thirtytwoNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
+            //show_website33
+            binding.thirtythreeNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
+            binding.thirtythreeNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
+            //show_website34
+            binding.thirtyfourNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
 
-        //show_website35
-        binding.thirtyfiveNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
-        binding.thirtyfiveNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
+            //show_website35
+            binding.thirtyfiveNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
+            binding.thirtyfiveNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
 
-        //show_website36
-        binding.thirtysixthNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
+            //show_website36
+            binding.thirtysixthNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
 
-        //show_website37
-        binding.thirtysevenNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
+            //show_website37
+            binding.thirtysevenNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
 
-        //show_website38
-        binding.thirtyeightNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
-        binding.thirtyeightNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
-
-
-        //show_website39
-        binding.thirtynineNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
-
-        //show_website40
-        binding.fortyNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
-        binding.fortyNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
+            //show_website38
+            binding.thirtyeightNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
+            binding.thirtyeightNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
 
 
-        //show_website41
-        binding.fortyoneNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
+            //show_website39
+            binding.thirtynineNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
 
-        //show_website42
-        binding.fortytwoNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
-        binding.fortytwoNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
-        //show_website43
-        binding.fortythreeNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
-        binding.fortythreeNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
-
-        //show_website44
-
-        //show_website45
-        binding.fortyfiveNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
-
-        //show_website46
-
-        //show_website47
-        binding.fortysevenNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
-        binding.fortysevenNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
-
-        //show_website48
+            //show_website40
+            binding.fortyNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
+            binding.fortyNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
+            binding.fortyNew.websiteMainRelative.setVisibility(View.VISIBLE);
 
 
-        //show_website49
-        binding.fortynineNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
-        binding.fortynineNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
+            //show_website41
+            binding.fortyoneNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
 
-        //show_website50
-        binding.fiftyNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
-        binding.fiftyNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
-        //show_website51
-        binding.fiftyoneNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
-        binding.fiftyoneNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
-        //show_website52
-        binding.fiftytwoNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
-        binding.fiftytwoNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
-        //show_website53
-        binding.fiftythreeNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
-        binding.fiftythreeNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
+            //show_website42
+            binding.fortytwoNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
+            binding.fortytwoNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
+            binding.fortytwoNew.mailMainRelative.setVisibility(View.VISIBLE);
+            //show_website43
+            binding.fortythreeNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
+            binding.fortythreeNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
+
+            //show_website44
+
+            //show_website45
+            binding.fortyfiveNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
+
+            //show_website46
+
+            //show_website47
+            binding.fortysevenNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
+            binding.fortysevenNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
+
+            //show_website48
 
 
-        //old frame code
-        binding.first.websiteMainRelative.setVisibility(View.VISIBLE);
-        binding.second.websiteMainRelative.setVisibility(View.VISIBLE);
-        binding.third.websiteMainRelative.setVisibility(View.VISIBLE);
-        binding.sixth.websiteMainRelative.setVisibility(View.VISIBLE);
-        binding.nineth.websiteMainRelative.setVisibility(View.VISIBLE);
-        binding.tenth.websiteMainRelative.setVisibility(View.VISIBLE);
-        binding.eleven.websiteMainRelative.setVisibility(View.VISIBLE);
-        binding.thirteen.websiteMainRelative.setVisibility(View.VISIBLE);
-        binding.fourteen.websiteMainRelative.setVisibility(View.VISIBLE);
-        binding.fifteen.websiteMainRelative.setVisibility(View.VISIBLE);
-        binding.sixteenth.websiteMainRelative.setVisibility(View.VISIBLE);
-        binding.seventeenth.websiteMainRelative.setVisibility(View.VISIBLE);
-        binding.eighteen.websiteMainRelative.setVisibility(View.VISIBLE);
+            //show_website49
+            binding.fortynineNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
+            binding.fortynineNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
+
+            //show_website50
+            binding.fiftyNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
+            binding.fiftyNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
+            //show_website51
+            binding.fiftyoneNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
+            binding.fiftyoneNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
+            //show_website52
+            binding.fiftytwoNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
+            binding.fiftytwoNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
+            //show_website53
+            binding.fiftythreeNew.businessWebsiteDetails.setVisibility(View.VISIBLE);
+            binding.fiftythreeNew.footerWebsiteIcon.setVisibility(View.VISIBLE);
+
+
+            //old frame code
+            binding.first.websiteMainRelative.setVisibility(View.VISIBLE);
+            binding.second.websiteMainRelative.setVisibility(View.VISIBLE);
+            binding.third.websiteMainRelative.setVisibility(View.VISIBLE);
+            binding.sixth.websiteMainRelative.setVisibility(View.VISIBLE);
+            binding.nineth.websiteMainRelative.setVisibility(View.VISIBLE);
+            binding.tenth.websiteMainRelative.setVisibility(View.VISIBLE);
+            binding.eleven.websiteMainRelative.setVisibility(View.VISIBLE);
+            binding.thirteen.websiteMainRelative.setVisibility(View.VISIBLE);
+            binding.fourteen.websiteMainRelative.setVisibility(View.VISIBLE);
+            binding.fifteen.websiteMainRelative.setVisibility(View.VISIBLE);
+            binding.sixteenth.websiteMainRelative.setVisibility(View.VISIBLE);
+            binding.seventeenth.websiteMainRelative.setVisibility(View.VISIBLE);
+            binding.eighteen.websiteMainRelative.setVisibility(View.VISIBLE);
 
     }
 
@@ -5190,6 +7979,7 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         //hide_website40
         binding.fortyNew.businessWebsiteDetails.setVisibility(View.GONE);
         binding.fortyNew.footerWebsiteIcon.setVisibility(View.GONE);
+        binding.fortyNew.websiteMainRelative.setVisibility(View.GONE);
 
 
         //hide_website41
@@ -5198,6 +7988,9 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         //hide_website42
         binding.fortytwoNew.businessWebsiteDetails.setVisibility(View.GONE);
         binding.fortytwoNew.footerWebsiteIcon.setVisibility(View.GONE);
+        binding.fortytwoNew.websiteMainRelative.setVisibility(View.GONE);
+
+
         //hide_website43
         binding.fortythreeNew.businessWebsiteDetails.setVisibility(View.GONE);
         binding.fortythreeNew.footerWebsiteIcon.setVisibility(View.GONE);
@@ -5280,14 +8073,16 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         //show_call35
         binding.thirtyfiveNew.businessCallDetails.setVisibility(View.VISIBLE);
         binding.thirtyfiveNew.footerCallIcon.setVisibility(View.VISIBLE);
+        binding.thirtyfiveNew.callMainRelative.setVisibility(View.VISIBLE);
 
 
         //show_call36
         binding.thirtysixthNew.businessCallDetails.setVisibility(View.VISIBLE);
+        binding.thirtysixthNew.callMainRelative.setVisibility(View.VISIBLE);
 
         //show_call37
         binding.thirtysevenNew.businessCallDetails.setVisibility(View.VISIBLE);
-
+        binding.thirtysevenNew.footerMailImage22.setVisibility(View.VISIBLE);
         //show_call38
         binding.thirtyeightNew.businessCallDetails.setVisibility(View.VISIBLE);
         binding.thirtyeightNew.footerCallIcon.setVisibility(View.VISIBLE);
@@ -5295,6 +8090,8 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         //show_call39
         binding.thirtynineNew.businessCallDetails.setVisibility(View.VISIBLE);
         binding.thirtynineNew.footerCallIcon.setVisibility(View.VISIBLE);
+        binding.thirtynineNew.callMainRelative.setVisibility(View.VISIBLE);
+        binding.thirtynineNew.callMainRelativeSecond.setVisibility(View.VISIBLE);
 
         //show_call40
         binding.fortyNew.businessCallDetails.setVisibility(View.VISIBLE);
@@ -5325,6 +8122,8 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         binding.fortysevenNew.businessCallDetails.setVisibility(View.VISIBLE);
         binding.fortysevenNew.headerCallIcon.setVisibility(View.VISIBLE);
         binding.fortysevenNew.headerCallIcon1.setVisibility(View.VISIBLE);
+        binding.fortysevenNew.callMainRelative.setVisibility(View.VISIBLE);
+        binding.fortysevenNew.callMainRelativeSecond.setVisibility(View.VISIBLE);
 
 
         //show_call48
@@ -5411,13 +8210,16 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         //hide_call35
         binding.thirtyfiveNew.businessCallDetails.setVisibility(View.GONE);
         binding.thirtyfiveNew.footerCallIcon.setVisibility(View.GONE);
+        binding.thirtyfiveNew.callMainRelative.setVisibility(View.GONE);
 
 
         //hide_call36
         binding.thirtysixthNew.businessCallDetails.setVisibility(View.GONE);
+        binding.thirtysixthNew.callMainRelative.setVisibility(View.GONE);
 
         //hide_call37
         binding.thirtysevenNew.businessCallDetails.setVisibility(View.GONE);
+        binding.thirtysevenNew.footerMailImage22.setVisibility(View.GONE);
 
         //hide_call38
         binding.thirtyeightNew.businessCallDetails.setVisibility(View.GONE);
@@ -5426,13 +8228,15 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         //hide_call39
         binding.thirtynineNew.businessCallDetails.setVisibility(View.GONE);
         binding.thirtynineNew.footerCallIcon.setVisibility(View.GONE);
+        binding.thirtynineNew.callMainRelativeSecond.setVisibility(View.GONE);
+        binding.thirtynineNew.callMainRelative.setVisibility(View.GONE);
+
 
         //hide_call40
         binding.fortyNew.businessCallDetails.setVisibility(View.GONE);
         binding.fortyNew.footerCallIcon.setVisibility(View.GONE);
 
         //hide_call41
-
         binding.fortyoneNew.businessCallDetails.setVisibility(View.GONE);
         binding.fortyoneNew.businessCallDetailsText.setVisibility(View.GONE);
 
@@ -5457,7 +8261,8 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         binding.fortysevenNew.businessCallDetails.setVisibility(View.GONE);
         binding.fortysevenNew.headerCallIcon.setVisibility(View.GONE);
         binding.fortysevenNew.headerCallIcon1.setVisibility(View.GONE);
-
+        binding.fortysevenNew.callMainRelative.setVisibility(View.GONE);
+        binding.fortysevenNew.callMainRelativeSecond.setVisibility(View.GONE);
 
         //hide_call48
 
@@ -5524,7 +8329,6 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         binding.thirtyoneNew.footerLocationImage.setVisibility(View.VISIBLE);
         //show_location32
         binding.thirtytwoNew.businessLocationDetails.setVisibility(View.VISIBLE);
-        binding.thirtytwoNew.footerLocationImage.setVisibility(View.VISIBLE);
         //show_location33
         binding.thirtythreeNew.businessLocationDetails.setVisibility(View.VISIBLE);
         binding.thirtythreeNew.footerLocationImage.setVisibility(View.VISIBLE);
@@ -5545,7 +8349,8 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         binding.thirtynineNew.footerLocationIcon.setVisibility(View.VISIBLE);
         //show_location40
         binding.fortyNew.businessLocationDetails.setVisibility(View.VISIBLE);
-        binding.fortyNew.footerLocationImage.setVisibility(View.VISIBLE);
+        /*binding.fortyNew.footerLocationImage.setVisibility(View.VISIBLE);*/
+
         //show_location41
         binding.fortyoneNew.businessLocationDetails.setVisibility(View.VISIBLE);
 
@@ -5571,7 +8376,7 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         binding.fortynineNew.footerLocationIcon.setVisibility(View.VISIBLE);
         //show_location50
         binding.fiftyNew.businessLocationDetails.setVisibility(View.VISIBLE);
-        binding.fiftyNew.footerLocationImage.setVisibility(View.VISIBLE);
+        /*binding.fiftyNew.footerLocationImage.setVisibility(View.VISIBLE);*/
         //show_location51
         binding.fiftyoneNew.businessLocationDetails.setVisibility(View.VISIBLE);
         binding.fiftyoneNew.footerLocationIcon.setVisibility(View.VISIBLE);
@@ -5604,71 +8409,71 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
         //show_location29
 
         //show_location30
-        binding.thirtyNew.businessLocationDetails.setVisibility(View.GONE);
-        binding.thirtyNew.footerLocationIcon.setVisibility(View.GONE);
+        binding.thirtyNew.businessLocationDetails.setVisibility(View.INVISIBLE);
+        binding.thirtyNew.footerLocationIcon.setVisibility(View.INVISIBLE);
         //show_location31
-        binding.thirtyoneNew.businessLocationDetails.setVisibility(View.GONE);
-        binding.thirtyoneNew.footerLocationImage.setVisibility(View.GONE);
+        binding.thirtyoneNew.businessLocationDetails.setVisibility(View.INVISIBLE);
+        binding.thirtyoneNew.footerLocationImage.setVisibility(View.INVISIBLE);
         //show_location32
-        binding.thirtytwoNew.businessLocationDetails.setVisibility(View.GONE);
-        binding.thirtytwoNew.footerLocationImage.setVisibility(View.GONE);
+        binding.thirtytwoNew.businessLocationDetails.setVisibility(View.INVISIBLE);
+
         //show_location33
-        binding.thirtythreeNew.businessLocationDetails.setVisibility(View.GONE);
-        binding.thirtythreeNew.footerLocationImage.setVisibility(View.GONE);
+        binding.thirtythreeNew.businessLocationDetails.setVisibility(View.INVISIBLE);
+        binding.thirtythreeNew.footerLocationImage.setVisibility(View.INVISIBLE);
         //show_location34
-        binding.thirtyfourNew.businessLocationDetails.setVisibility(View.GONE);
-        binding.thirtyfourNew.footerLocationIcon.setVisibility(View.GONE);
+        binding.thirtyfourNew.businessLocationDetails.setVisibility(View.INVISIBLE);
+        binding.thirtyfourNew.footerLocationIcon.setVisibility(View.INVISIBLE);
         //show_location35
 
         //show_location36
 
         //show_location37
-        binding.thirtysevenNew.businessLocationDetails.setVisibility(View.GONE);
+        binding.thirtysevenNew.businessLocationDetails.setVisibility(View.INVISIBLE);
 
         //show_location38
 
         //show_location39
-        binding.thirtynineNew.businessLocationDetails.setVisibility(View.GONE);
-        binding.thirtynineNew.footerLocationIcon.setVisibility(View.GONE);
+        binding.thirtynineNew.businessLocationDetails.setVisibility(View.INVISIBLE);
+        binding.thirtynineNew.footerLocationIcon.setVisibility(View.INVISIBLE);
         //show_location40
-        binding.fortyNew.businessLocationDetails.setVisibility(View.GONE);
-        binding.fortyNew.footerLocationImage.setVisibility(View.GONE);
+        binding.fortyNew.businessLocationDetails.setVisibility(View.INVISIBLE);
+        /*binding.fortyNew.footerLocationImage.setVisibility(View.INVISIBLE);*/
         //show_location41
-        binding.fortyoneNew.businessLocationDetails.setVisibility(View.GONE);
+        binding.fortyoneNew.businessLocationDetails.setVisibility(View.INVISIBLE);
 
         //show_location42
-        binding.fortytwoNew.businessLocationDetails.setVisibility(View.GONE);
-        binding.fortytwoNew.footerLocationIcon.setVisibility(View.GONE);
+        binding.fortytwoNew.businessLocationDetails.setVisibility(View.INVISIBLE);
+        binding.fortytwoNew.footerLocationIcon.setVisibility(View.INVISIBLE);
         //show_location43
 
         //show_location44
-        binding.fortyfourNew.businessLocationDetails.setVisibility(View.GONE);
+        binding.fortyfourNew.businessLocationDetails.setVisibility(View.INVISIBLE);
 
         //show_location45
 
         //show_location46
 
         //show_location47
-        binding.fortysevenNew.businessLocationDetails.setVisibility(View.GONE);
-        binding.fortysevenNew.footerLocationIcon.setVisibility(View.GONE);
+        binding.fortysevenNew.businessLocationDetails.setVisibility(View.INVISIBLE);
+        binding.fortysevenNew.footerLocationIcon.setVisibility(View.INVISIBLE);
         //show_location48
 
         //show_location49
-        binding.fortynineNew.businessLocationDetails.setVisibility(View.GONE);
-        binding.fortynineNew.footerLocationIcon.setVisibility(View.GONE);
+        binding.fortynineNew.businessLocationDetails.setVisibility(View.INVISIBLE);
+        binding.fortynineNew.footerLocationIcon.setVisibility(View.INVISIBLE);
         //show_location50
-        binding.fiftyNew.businessLocationDetails.setVisibility(View.GONE);
-        binding.fiftyNew.footerLocationImage.setVisibility(View.GONE);
+        binding.fiftyNew.businessLocationDetails.setVisibility(View.INVISIBLE);
+        /*binding.fiftyNew.footerLocationImage.setVisibility(View.INVISIBLE);*/
         //show_location51
-        binding.fiftyoneNew.businessLocationDetails.setVisibility(View.GONE);
-        binding.fiftyoneNew.footerLocationIcon.setVisibility(View.GONE);
+        binding.fiftyoneNew.businessLocationDetails.setVisibility(View.INVISIBLE);
+        binding.fiftyoneNew.footerLocationIcon.setVisibility(View.INVISIBLE);
         //show_location52
-        binding.fiftytwoNew.businessLocationDetails.setVisibility(View.GONE);
-        binding.fiftytwoNew.footerLocationImage.setVisibility(View.GONE);
+        binding.fiftytwoNew.businessLocationDetails.setVisibility(View.INVISIBLE);
+        binding.fiftytwoNew.footerLocationImage.setVisibility(View.INVISIBLE);
 
         //show_location53
-        binding.fiftythreeNew.businessLocationDetails.setVisibility(View.GONE);
-        binding.fiftythreeNew.footerLocationImage.setVisibility(View.GONE);
+        binding.fiftythreeNew.businessLocationDetails.setVisibility(View.INVISIBLE);
+        binding.fiftythreeNew.footerLocationImage.setVisibility(View.INVISIBLE);
 
         binding.first.locationMainRelative.setVisibility(View.GONE);
         binding.second.locationMainRelative.setVisibility(View.GONE);
@@ -5712,7 +8517,53 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
       //show_mail37
         binding.thirtysevenNew.businessMailDetails.setVisibility(View.VISIBLE);
         //show_mail38
-        binding.thirtyeightNew.businessMailDetails.setVisibility(View.VISIBIL)
+        binding.thirtyeightNew.businessMailDetails.setVisibility(View.VISIBLE);
+        //show_mail39
+        binding.thirtynineNew.businessMailDetails.setVisibility(View.VISIBLE);
+        binding.thirtynineNew.footerMailIcon.setVisibility(View.VISIBLE);
+        //show_mail40
+        binding.fortyNew.businessMailDetails.setVisibility(View.VISIBLE);
+        binding.fortyNew.EmailIcon.setVisibility(View.VISIBLE);
+        //show_mail41
+        binding.fortyoneNew.businessMailDetails.setVisibility(View.VISIBLE);
+
+        //show_mail42
+//        binding.fortytwoNew.mailMainRelative112.setVisibility(View.VISIBLE);
+
+        //show_mail43
+        binding.fortythreeNew.businessMailDetails.setVisibility(View.VISIBLE);
+        binding.fortythreeNew.footerMailIcon.setVisibility(View.VISIBLE);
+
+        //show_mail44
+        //show_mail45
+        binding.fortyfiveNew.businessMailDetails.setVisibility(View.VISIBLE);
+        //show_mail46
+        binding.fortysixNew.businessMailDetails.setVisibility(View.VISIBLE);
+        binding.fortysixNew.footerMailIcon.setVisibility(View.VISIBLE);
+        //show_mail47
+        binding.fortysevenNew.businessMailDetails.setVisibility(View.VISIBLE);
+        binding.fortysevenNew.footerMailIcon.setVisibility(View.VISIBLE);
+        //show_mail48
+
+        //show_mail49
+        binding.fortynineNew.businessMailDetails.setVisibility(View.VISIBLE);
+        binding.fortynineNew.footerMailIcon.setVisibility(View.VISIBLE);
+        //show_mail50
+        binding.fiftyNew.businessMailDetails.setVisibility(View.VISIBLE);
+        binding.fiftyNew.EmailIcon.setVisibility(View.VISIBLE);
+        //show_mail51
+        binding.fiftyoneNew.businessMailDetails.setVisibility(View.VISIBLE);
+        binding.fiftyoneNew.footerMailIcon.setVisibility(View.VISIBLE);
+        //show_mail52
+        binding.fiftytwoNew.businessMailDetails.setVisibility(View.VISIBLE);
+        binding.fiftytwoNew.footerMailIcon.setVisibility(View.VISIBLE);
+        //show_mail53
+        binding.fiftythreeNew.businessMailDetails.setVisibility(View.VISIBLE);
+        binding.fiftythreeNew.footerMailIcon.setVisibility(View.VISIBLE);
+
+
+
+
         //old frame code
         binding.first.mailMainRelative.setVisibility(View.VISIBLE);
         binding.second.mailMainRelative.setVisibility(View.VISIBLE);
@@ -5742,8 +8593,72 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
 
     private void hide_mail() {
         //new frame code
+
+        //hide_mail29
         binding.twentynineNew.mailMainRelative.setVisibility(View.GONE);
         binding.twentynineNew.footerMailImage.setVisibility(View.GONE);
+        //hide_mail30
+        binding.thirtyNew.mailMainRelative.setVisibility(View.GONE);
+        //hide_mail31
+        binding.thirtyoneNew.mailMainRelative.setVisibility(View.GONE);
+        //hide_mail32
+        binding.thirtytwoNew.mailMainRelative.setVisibility(View.GONE);
+        //hide_mail33
+        binding.thirtythreeNew.footerMailImage.setVisibility(View.GONE);
+        binding.thirtythreeNew.businessMailDetails.setVisibility(View.GONE);
+        //hide_mail34
+        binding.thirtyfourNew.businessMailDetails.setVisibility(View.GONE);
+        binding.thirtyfourNew.footerEmailIcon.setVisibility(View.GONE);
+        //hide_mail35
+        binding.thirtyfiveNew.businessMailDetails.setVisibility(View.GONE);
+        binding.thirtyfiveNew.footerMailIcon.setVisibility(View.GONE);
+        //hide_mail36
+        binding.thirtysixthNew.businessMailDetails.setVisibility(View.GONE);
+        //hide_mail37
+        binding.thirtysevenNew.businessMailDetails.setVisibility(View.GONE);
+        //hide_mail38
+        binding.thirtyeightNew.businessMailDetails.setVisibility(View.GONE);
+        //hide_mail39
+        binding.thirtynineNew.businessMailDetails.setVisibility(View.GONE);
+        binding.thirtynineNew.footerMailIcon.setVisibility(View.GONE);
+        //hide_mail40
+        binding.fortyNew.businessMailDetails.setVisibility(View.GONE);
+        binding.fortyNew.EmailIcon.setVisibility(View.GONE);
+        //hide_mail41
+        binding.fortyoneNew.businessMailDetails.setVisibility(View.GONE);
+
+        //hide_mail42
+//        binding.fortytwoNew.mailMainRelative112.setVisibility(View.GONE);
+        //hide_mail43
+        binding.fortythreeNew.businessMailDetails.setVisibility(View.GONE);
+        binding.fortythreeNew.footerMailIcon.setVisibility(View.GONE);
+
+        //hide_mail44
+        //hide_mail45
+        binding.fortyfiveNew.businessMailDetails.setVisibility(View.GONE);
+        //hide_mail46
+        binding.fortysixNew.businessMailDetails.setVisibility(View.GONE);
+        binding.fortysixNew.footerMailIcon.setVisibility(View.GONE);
+        //hide_mail47
+        binding.fortysevenNew.businessMailDetails.setVisibility(View.GONE);
+        binding.fortysevenNew.footerMailIcon.setVisibility(View.GONE);
+        //hide_mail48
+
+        //hide_mail49
+        binding.fortynineNew.businessMailDetails.setVisibility(View.GONE);
+        binding.fortynineNew.footerMailIcon.setVisibility(View.GONE);
+        //hide_mail50
+        binding.fiftyNew.businessMailDetails.setVisibility(View.GONE);
+        binding.fiftyNew.EmailIcon.setVisibility(View.GONE);
+        //hide_mail51
+        binding.fiftyoneNew.businessMailDetails.setVisibility(View.GONE);
+        binding.fiftyoneNew.footerMailIcon.setVisibility(View.GONE);
+        //hide_mail52
+        binding.fiftytwoNew.businessMailDetails.setVisibility(View.GONE);
+        binding.fiftytwoNew.footerMailIcon.setVisibility(View.GONE);
+        //hide_mail53
+        binding.fiftythreeNew.businessMailDetails.setVisibility(View.GONE);
+        binding.fiftythreeNew.footerMailIcon.setVisibility(View.GONE);
 
         //old frame code
         binding.first.mailMainRelative.setVisibility(View.GONE);
@@ -5990,7 +8905,56 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
 
     private void show_logo() {
         //new frame code
+        //show_logo29
         binding.twentynineNew.businessLogoRelative.setVisibility(View.VISIBLE);
+        //show_logo30
+        binding.thirtyNew.businessLogoRelative.setVisibility(View.VISIBLE);
+        //show_logo31
+        binding.thirtyoneNew.businessLogoRelative.setVisibility(View.VISIBLE);
+        //show_logo32
+        binding.thirtytwoNew.businessLogoRelative.setVisibility(View.VISIBLE);
+        //show_logo33
+        binding.thirtythreeNew.businessLogoRelative.setVisibility(View.VISIBLE);
+        //show_logo34
+        binding.thirtyfourNew.businessLogoRelative.setVisibility(View.VISIBLE);
+        //show_logo35
+        binding.thirtyfiveNew.businessLogoRelative.setVisibility(View.VISIBLE);
+        //show_logo36
+        binding.thirtysixthNew.businessLogoRelative.setVisibility(View.VISIBLE);
+        //show_logo37
+        binding.thirtysevenNew.businessLogoRelative.setVisibility(View.VISIBLE);
+        //show_logo38
+        binding.thirtyeightNew.businessLogoRelative.setVisibility(View.VISIBLE);
+        //show_logo39
+        binding.thirtynineNew.businessLogoRelative.setVisibility(View.VISIBLE);
+        //show_logo40
+        binding.fortyNew.businessLogoRelative.setVisibility(View.VISIBLE);
+        //show_logo41
+        binding.fortyoneNew.businessLogoRelative.setVisibility(View.VISIBLE);
+        //show_logo42
+        binding.fortytwoNew.businessLogoRelative.setVisibility(View.VISIBLE);
+        //show_logo43
+        binding.fortythreeNew.businessLogoRelative.setVisibility(View.VISIBLE);
+        //show_logo44
+        binding.fortyfourNew.businessLogoRelative.setVisibility(View.VISIBLE);
+        //show_logo45
+        binding.fortyfiveNew.businessLogoRelative.setVisibility(View.VISIBLE);
+        //show_logo46
+        binding.fortysixNew.businessLogoRelative.setVisibility(View.VISIBLE);
+        //show_logo47
+        binding.fortysevenNew.businessLogoRelative.setVisibility(View.VISIBLE);
+        //show_logo48
+        binding.fortyeightNew.businessLogoRelative.setVisibility(View.VISIBLE);
+        //show_logo49
+        binding.fortynineNew.businessLogoRelative.setVisibility(View.VISIBLE);
+        //show_logo50
+        binding.fiftyNew.businessLogoRelative.setVisibility(View.VISIBLE);
+        //show_logo51
+        binding.fiftyoneNew.businessLogoRelative.setVisibility(View.VISIBLE);
+        //show_logo52
+        binding.fiftytwoNew.businessLogoRelative.setVisibility(View.VISIBLE);
+        //show_logo53
+        binding.fiftythreeNew.businessLogoRelative.setVisibility(View.VISIBLE);
 
         //old frame code
         binding.first.businessLogoRelative.setVisibility(View.VISIBLE);
@@ -6024,7 +8988,56 @@ public class ImageCanvasActivity extends AppCompatActivity implements ThemeItemC
 
     private void hide_logo() {
         //new frame code
+        //hide_logo29
         binding.twentynineNew.businessLogoRelative.setVisibility(View.INVISIBLE);
+        //hide_logo30
+        binding.thirtyNew.businessLogoRelative.setVisibility(View.INVISIBLE);
+        //hide_logo31
+        binding.thirtyoneNew.businessLogoRelative.setVisibility(View.INVISIBLE);
+        //hide_logo32
+        binding.thirtytwoNew.businessLogoRelative.setVisibility(View.INVISIBLE);
+        //hide_logo33
+        binding.thirtythreeNew.businessLogoRelative.setVisibility(View.INVISIBLE);
+        //hide_logo34
+        binding.thirtyfourNew.businessLogoRelative.setVisibility(View.INVISIBLE);
+        //hide_logo35
+        binding.thirtyfiveNew.businessLogoRelative.setVisibility(View.INVISIBLE);
+        //hide_logo36
+        binding.thirtysixthNew.businessLogoRelative.setVisibility(View.INVISIBLE);
+        //hide_logo37
+        binding.thirtysevenNew.businessLogoRelative.setVisibility(View.INVISIBLE);
+        //hide_logo38
+        binding.thirtyeightNew.businessLogoRelative.setVisibility(View.INVISIBLE);
+        //hide_logo39
+        binding.thirtynineNew.businessLogoRelative.setVisibility(View.INVISIBLE);
+        //hide_logo40
+        binding.fortyNew.businessLogoRelative.setVisibility(View.INVISIBLE);
+        //hide_logo41
+        binding.fortyoneNew.businessLogoRelative.setVisibility(View.INVISIBLE);
+        //hide_logo42
+        binding.fortytwoNew.businessLogoRelative.setVisibility(View.INVISIBLE);
+        //hide_logo43
+        binding.fortythreeNew.businessLogoRelative.setVisibility(View.INVISIBLE);
+        //hide_logo44
+        binding.fortyfourNew.businessLogoRelative.setVisibility(View.INVISIBLE);
+        //hide_logo45
+        binding.fortyfiveNew.businessLogoRelative.setVisibility(View.INVISIBLE);
+        //hide_logo46
+        binding.fortysixNew.businessLogoRelative.setVisibility(View.INVISIBLE);
+        //hide_logo47
+        binding.fortysevenNew.businessLogoRelative.setVisibility(View.INVISIBLE);
+        //hide_logo48
+        binding.fortyeightNew.businessLogoRelative.setVisibility(View.INVISIBLE);
+        //hide_logo49
+        binding.fortynineNew.businessLogoRelative.setVisibility(View.INVISIBLE);
+        //hide_logo50
+        binding.fiftyNew.businessLogoRelative.setVisibility(View.INVISIBLE);
+        //hide_logo51
+        binding.fiftyoneNew.businessLogoRelative.setVisibility(View.INVISIBLE);
+        //hide_logo52
+        binding.fiftytwoNew.businessLogoRelative.setVisibility(View.INVISIBLE);
+        //hide_logo53
+        binding.fiftythreeNew.businessLogoRelative.setVisibility(View.INVISIBLE);
         
         //old frame code
         binding.first.businessLogoRelative.setVisibility(View.INVISIBLE);

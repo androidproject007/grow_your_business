@@ -19,6 +19,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Toast;
+import android.telephony.TelephonyManager;
 
 import com.brandshaastra.DTO.BusinessDataDto;
 import com.brandshaastra.DTO.UserDTO;
@@ -121,6 +122,10 @@ public class CheckSigninActivity extends AppCompatActivity implements View.OnCli
             }
         });*/
         setUiAction();
+
+       /* TelephonyManager t = (TelephonyManager)getSystemService(TELEPHONY_SERVICE);
+        String number = t.getLine1Number();
+        android.widget.Toast.makeText(mContext, number, Toast.LENGTH_SHORT).show();*/
     }
 
     public void setUiAction() {
@@ -254,7 +259,7 @@ public class CheckSigninActivity extends AppCompatActivity implements View.OnCli
     public void login(){
 
         Log.e("EMAIL", "" + ProjectUtils.getEditTextValue(binding.CETemailadd));
-
+        android.widget.Toast.makeText(mContext, ProjectUtils.getEditTextValue(binding.CETnumberadd), Toast.LENGTH_SHORT).show();
         progressDialog.show();
 //        Toast.makeText(getApplicationContext(), Consts.LOGIN_TYPE, Toast.LENGTH_SHORT).show();
         Retrofit retrofit = apiClient.getClient(Consts.BASE_URL.trim() + Consts.USER_CONTROLLER);

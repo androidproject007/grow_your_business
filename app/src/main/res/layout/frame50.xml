@@ -15,8 +15,8 @@
 
             <RelativeLayout
                 android:id="@+id/business_logo_relative"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
 
                 android:layout_marginLeft="@dimen/size_15dp"
                 android:layout_marginTop="@dimen/dimen_5dp">
@@ -187,14 +187,14 @@
                             android:background="#6B6C6C"
 
                             android:gravity="center">
-                            <ImageView
+                          <!--  <ImageView
                                 android:id="@+id/footer_location_image"
                                 android:layout_width="10dp"
                                 android:layout_height="10dp"
 
                                 android:src="@drawable/ic_website"
                                 android:tint="@color/white"
-                                android:visibility="invisible"/>
+                                android:visibility="invisible"/>-->
 
                             <com.brandshaastra.utils.CustomTextView
                                 android:id="@+id/business_location_details"
@@ -232,7 +232,7 @@
 
 
                             <LinearLayout
-                                android:id="@+id/website_main_relative"
+                                android:id="@+id/mail_main_relative"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
@@ -284,7 +284,7 @@
                                 android:layout_weight="1" ></Space>
 
                             <LinearLayout
-                                android:id="@+id/call_main_relative1"
+                                android:id="@+id/call_main_relative"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:gravity="center">
@@ -314,7 +314,7 @@
                                 android:layout_weight=".5" ></Space>
 
                             <LinearLayout
-                                android:id="@+id/call_main_relative"
+                                android:id="@+id/website_main_relative"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
 

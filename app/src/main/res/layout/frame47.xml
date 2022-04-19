@@ -16,10 +16,10 @@
 
             <RelativeLayout
                 android:id="@+id/business_logo_relative"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:layout_marginLeft="@dimen/size_15dp"
-                android:layout_marginTop="40dp">
+                android:layout_marginTop="25dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -27,8 +27,8 @@
                     android:layout_marginTop="@dimen/dimen_5dp">
 
                     <RelativeLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:background="@drawable/simple_curved_relative_5dp">
 
                         <ImageView
@@ -148,6 +148,7 @@
 
 
                         <LinearLayout
+                            android:id="@+id/call_main_relative"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
@@ -178,6 +179,7 @@
                         </LinearLayout>
 
                         <LinearLayout
+                            android:id="@+id/call_main_relative_second"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="3dp"
@@ -217,7 +219,7 @@
             android:layout_height="30dp">
 
             <RelativeLayout
-                android:id="@+id/location_main_relative"
+                android:id="@+id/location_main_relative22"
                 android:layout_width="140dp"
                 android:layout_height="20dp"
                 android:background="@drawable/vector"
@@ -260,6 +262,13 @@
                                 android:layout_width="0dp"
                                 android:layout_height="1dp"
                                 android:layout_weight="1" ></Space>
+                            <RelativeLayout
+                                android:id="@+id/website_main_relative"
+                                android:layout_width="wrap_content"
+
+                                android:layout_height="wrap_content">
+
+
                             <ImageView
                                 android:id="@+id/footer_website_icon"
                                 android:layout_width="15sp"
@@ -275,14 +284,22 @@
                                 android:ellipsize="end"
                                 android:gravity="center_horizontal"
                                 android:paddingLeft="@dimen/dimen_5dp"
+                                android:layout_marginLeft="19dp"
                                 android:singleLine="false"
                                 android:text="growyourbusiness.com"
                                 android:textColor="@color/white"
                                 android:textSize="7sp" />
+                            </RelativeLayout>
                             <Space
                                 android:layout_width="0dp"
                                 android:layout_height="1dp"
                                 android:layout_weight="1" ></Space>
+                            <RelativeLayout
+                                android:id="@+id/mail_main_relative"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+
                             <ImageView
                                 android:id="@+id/footer_mail_icon"
                                 android:layout_width="15sp"
@@ -296,17 +313,23 @@
                                 android:layout_centerHorizontal="true"
                                 android:layout_centerVertical="true"
                                 android:ellipsize="end"
-                                android:layout_marginLeft="10dp"
+                                android:layout_marginLeft="30dp"
                                 android:gravity="center_horizontal"
-                                android:paddingLeft="@dimen/dimen_5dp"
                                 android:singleLine="true"
                                 android:text="growyourbusiness@gmail.com"
                                 android:textColor="@color/white"
-                                android:textSize="@dimen/size_9dp" />
+                                android:textSize="7sp" />
+                            </RelativeLayout>
                             <Space
                                 android:layout_width="0dp"
                                 android:layout_height="1dp"
                                 android:layout_weight="1" ></Space>
+                            <RelativeLayout
+                                android:id="@+id/location_main_relative"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+
                             <ImageView
                                 android:id="@+id/footer_location_icon"
                                 android:layout_width="15sp"
@@ -326,7 +349,8 @@
                                 android:singleLine="false"
                                 android:text="Location"
                                 android:textColor="@color/white"
-                                android:textSize="@dimen/size_9dp" />
+                                android:textSize="7sp" />
+                            </RelativeLayout>
                             <Space
                                 android:layout_width="0dp"
                                 android:layout_height="1dp"

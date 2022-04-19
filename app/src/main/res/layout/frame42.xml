@@ -15,17 +15,17 @@
             android:layout_height="350dp">
             <RelativeLayout
                 android:id="@+id/business_logo_relative"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:layout_alignParentRight="true"
                 android:layout_marginLeft="@dimen/size_15dp">
                 <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_marginTop="@dimen/dimen_5dp">
                     <RelativeLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:background="@drawable/simple_curved_relative_5dp">
                         <ImageView
                             android:id="@+id/business_icon"
@@ -209,7 +209,7 @@
                         </RelativeLayout>
 
                         <RelativeLayout
-                            android:id="@+id/mail_main_relative12"
+                            android:id="@+id/website_main_relative"
                             android:layout_width="wrap_content"
                             android:layout_height="15dp"
                             android:background="@drawable/asset_16frame42_background_footer1"
@@ -257,7 +257,7 @@
                         android:orientation="horizontal">
 
                         <RelativeLayout
-                            android:id="@+id/mail_main_relative112"
+                            android:id="@+id/mail_main_relative"
                             android:layout_width="200dp"
                             android:layout_height="15dp"
                             android:background="@drawable/asset_16frame42_background_footer1"

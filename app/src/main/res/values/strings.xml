@@ -28,6 +28,7 @@
     <string name="privacy_policy">Privacy Policy</string>
     <string name="full_name">Full Name</string>
     <string name="email_address">Email Id</string>
+    <string name="number">Phone Number</string>
     <string name="email">Email</string>
     <string name="create_kamaii_account">Create Account</string>
     <string name="password">Password</string>

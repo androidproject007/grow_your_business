@@ -245,14 +245,23 @@
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/drawable/ic_asset_7round_border.xml" value="0.1" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/drawable/ic_frame_38_footer_background.xml" value="0.1" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/drawable/ic_third_frame_bg.xml" value="0.1125" />
+        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/activity_account.xml" value="0.1115861479264643" />
+        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/activity_base.xml" value="0.11115861479264642" />
+        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/activity_business.xml" value="0.11115861479264642" />
+        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/activity_business_document.xml" value="0.1" />
+        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/activity_business_document2.xml" value="0.1115861479264643" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/activity_business_document3.xml" value="0.15476699444206926" />
+        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/activity_check_signin.xml" value="0.1115861479264643" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/activity_contact_us.xml" value="0.1085934159897392" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/activity_edit_profile.xml" value="0.1" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/activity_home_screen.xml" value="0.15476699444206926" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/activity_image_canvas.xml" value="0.22393162393162394" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/activity_package_purchase.xml" value="0.1" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/activity_privacy.xml" value="0.1" />
+        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/activity_sign_up.xml" value="0.11115861479264642" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/bottomsheet_dialog_layout.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/dailog_update.xml" value="0.11115861479264642" />
+        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/fragment_business_document2.xml" value="0.11115861479264642" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame1.xml" value="0.25" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame10.xml" value="0.5" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame12.xml" value="0.1085934159897392" />
@@ -266,23 +275,23 @@
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame3.xml" value="0.1" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame30.xml" value="0.29707792207792205" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame31.xml" value="0.25" />
-        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame32.xml" value="0.4217391304347826" />
+        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame32.xml" value="0.473463687150838" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame33.xml" value="0.387987012987013" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame34.xml" value="0.33" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame35.xml" value="0.3468795355587808" />
-        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame36.xml" value="0.36082474226804123" />
-        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame37.xml" value="0.33" />
+        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame36.xml" value="0.25" />
+        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame37.xml" value="0.46887966804979253" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame38.xml" value="0.25" />
-        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame39.xml" value="0.46887966804979253" />
+        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame39.xml" value="0.5" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame4.xml" value="0.1" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame40.xml" value="0.26789366053169733" />
-        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame41.xml" value="0.5975609756097561" />
-        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame42.xml" value="0.33" />
+        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame41.xml" value="0.5794871794871795" />
+        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame42.xml" value="0.25" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame43.xml" value="0.5" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame44.xml" value="0.484548825710754" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame45.xml" value="0.33" />
-        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame46.xml" value="0.67" />
-        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame47.xml" value="0.5421853388658368" />
+        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame46.xml" value="0.46887966804979253" />
+        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame47.xml" value="0.67" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame48.xml" value="0.33" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame49.xml" value="0.5" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame50.xml" value="0.5" />
@@ -290,13 +299,20 @@
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame52.xml" value="0.33448275862068966" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame53.xml" value="0.31493506493506496" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame7.xml" value="0.1" />
+        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/frame9.xml" value="0.11115861479264642" />
+        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/home_recycler_layout.xml" value="0.11115861479264642" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/home_sub_recycler.xml" value="0.1" />
+        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/homescreen_bottomsheet_dialog.xml" value="0.11115861479264642" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/image_canvas_recycler_layout.xml" value="0.1" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/item_font_select.xml" value="0.1" />
+        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/item_slider_filter.xml" value="0.11115861479264642" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/notification_recycler_layout.xml" value="0.1" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/row_sticker.xml" value="0.1" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/service_recycler_layout.xml" value="0.1" />
         <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/slide.xml" value="0.1" />
+        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/subcat_recycler_layout.xml" value="0.11115861479264642" />
+        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/subscription_recycle_layout.xml" value="0.11115861479264642" />
+        <entry key="..\:/Users/Mart2Global/Desktop/GrowYourBusiness-3/GrowYourBusiness/app/src/main/res/layout/theme_recycler_layout.xml" value="0.11115861479264642" />
         <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_07-10-2021/GrowYourBusiness_06-10-2021/GrowYourBusiness/app/src/main/res/drawable/frame22_bg.xml" value="0.2203125" />
         <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_07-10-2021/GrowYourBusiness_06-10-2021/GrowYourBusiness/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.2203125" />
         <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_07-10-2021/GrowYourBusiness_06-10-2021/GrowYourBusiness/app/src/main/res/drawable/ic_frame20_bg_img.xml" value="0.2203125" />
@@ -332,7 +348,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.33" />
+        <option name="scale" value="0.5" />
       </ProjectState>
     </option>
   </component>

@@ -28,26 +28,25 @@
 
                 <RelativeLayout
                     android:id="@+id/business_logo_relative"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_marginLeft="@dimen/size_15dp"
                     android:layout_marginTop="@dimen/dimen_5dp">
 
                     <RelativeLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:layout_marginTop="@dimen/dimen_5dp">
 
                         <RelativeLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
                             android:background="@drawable/simple_curved_relative_5dp">
 
                             <ImageView
                                 android:id="@+id/business_icon"
-                                android:layout_width="30dp"
-                                android:layout_height="30dp"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
                                 android:scaleType="fitXY"
                                 android:src="@drawable/brand_shaastra_logo" />
                         </RelativeLayout>
@@ -65,7 +64,7 @@
 
                 <RelativeLayout
                     android:id="@+id/business_logo_relative1"
-                    android:layout_width="270dp"
+                    android:layout_width="250dp"
                     android:layout_height="30dp"
                     android:layout_alignParentRight="true"
                     android:gravity="center">
@@ -95,21 +94,22 @@
 
                         </LinearLayout>
 
-                    </RelativeLayout>
 
                     <RelativeLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:layout_centerHorizontal="true"
-                        android:gravity="center">
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/test_name">
 
                         <ImageView
                             android:id="@+id/header_slash_icon"
                             android:layout_width="20dp"
                             android:layout_height="20dp"
+                            android:layout_centerVertical="true"
                             android:src="@drawable/ic_icons8_line_24__2_"
                             android:tint="@color/white" />
 
+                    </RelativeLayout>
                     </RelativeLayout>
 
                     <RelativeLayout
@@ -184,7 +184,7 @@
                     android:orientation="vertical">
 
                     <RelativeLayout
-                        android:id="@+id/layout12"
+                        android:id="@+id/call_main_relative"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
 

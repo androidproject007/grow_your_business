@@ -15,11 +15,11 @@
             android:layout_height="350dp">
             <RelativeLayout
                 android:id="@+id/business_logo_relative"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/business_logo_relative1"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="30dp"
-                >
+                 >
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -28,6 +28,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/simple_curved_relative_5dp">
+
                         <ImageView
                             android:id="@+id/business_icon"
                             android:layout_width="800dp"
@@ -128,6 +129,7 @@
                 android:gravity="center">
 
                 <RelativeLayout
+                    android:id="@+id/call_main_relative"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
@@ -155,6 +157,7 @@
                 </RelativeLayout>
 
                 <RelativeLayout
+                    android:id="@+id/call_main_relative_second"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
@@ -262,6 +265,7 @@
 
                 </RelativeLayout>
                 <RelativeLayout
+                    android:id="@+id/mail_main_relative"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
@@ -273,10 +277,10 @@
                         android:id="@+id/businessMailDetails"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                         android:layout_centerVertical="true"
+                        android:layout_centerVertical="true"
                         android:ellipsize="end"
                         android:gravity="center_horizontal"
-                         android:singleLine="true"
+                        android:singleLine="true"
 
                         android:text="hello@reallygreatsite.com"
                         android:textColor="@color/black"
@@ -299,7 +303,7 @@
                 android:layout_alignParentBottom="true">
 
                 <RelativeLayout
-                    android:id="@+id/footer_bg"
+                    android:id="@+id/website_main_relative"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:layout_alignParentBottom="true"

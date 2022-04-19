@@ -185,6 +185,72 @@
                             </RelativeLayout>
                         </androidx.cardview.widget.CardView>
 
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="3dp"
+                            android:padding="5dp"
+                            app:cardCornerRadius="@dimen/dimen_5dp"
+                            app:cardElevation="2dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/rounded_corner_edittext_bg">
+
+                                <ImageView
+                                    android:id="@+id/india_flag1"
+                                    android:layout_width="35dp"
+                                    android:layout_height="35dp"
+                                    android:layout_centerVertical="true"
+                                    android:paddingStart="15dp"
+                                    android:tint="@color/black"
+                                    android:src="@drawable/ic_baseline_phone_android_24" />
+
+                                <com.brandshaastra.utils.CustomTextView
+                                    android:id="@+id/country_code1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_toEndOf="@id/india_flag1"
+                                    android:drawablePadding="10dp"
+                                    android:gravity="center_vertical"
+                                    android:paddingStart="5dp"
+                                    android:paddingTop="19dp"
+                                    android:paddingEnd="7dp"
+                                    android:paddingBottom="15dp"
+                                    android:text="+91"
+                                    android:textSize="18dp"
+                                    android:visibility="gone" />
+
+                                <com.brandshaastra.utils.CustomEditText
+                                    android:id="@+id/CETnumberadd"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_toEndOf="@id/country_code1"
+                                    android:background="@android:color/transparent"
+                                    android:drawablePadding="10dp"
+                                    android:hint="@string/number"
+                                    android:inputType="number"
+                                    android:maxLength="30"
+                                    android:paddingStart="15dp"
+                                    android:paddingTop="15dp"
+                                    android:paddingEnd="15dp"
+                                    android:paddingBottom="15dp"
+                                    android:singleLine="true"
+                                    android:text=""
+                                    android:textColor="@color/black"
+                                    android:textColorHint="#9c9ca1"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold">
+
+                                    <requestFocus />
+                                </com.brandshaastra.utils.CustomEditText>
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+
                         <com.brandshaastra.utils.CustomTextViewBold
                             android:id="@+id/CBsignIn"
                             android:layout_width="match_parent"

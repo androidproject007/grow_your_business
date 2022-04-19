@@ -14,8 +14,8 @@
             android:layout_height="350dp">
             <RelativeLayout
                 android:id="@+id/business_logo_relative"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
 
                 android:layout_marginLeft="@dimen/size_15dp"
                 android:layout_marginTop="@dimen/dimen_5dp">
@@ -155,7 +155,7 @@
                                 android:layout_weight="1"></Space>
 
                             <LinearLayout
-                                android:id="@+id/website_main_relative"
+                                android:id="@+id/call_main_relative"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
@@ -227,7 +227,7 @@
                                 android:layout_weight="1"></Space>
 
                             <LinearLayout
-                                android:id="@+id/call_main_relative1"
+                                android:id="@+id/website_main_relative"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:gravity="center">

@@ -16,14 +16,14 @@
 
             <RelativeLayout
                 android:id="@+id/business_logo_relative"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
 
                 android:layout_marginLeft="@dimen/size_15dp"
                 android:layout_marginTop="@dimen/dimen_5dp">
                 <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_marginTop="@dimen/dimen_5dp">
                     <RelativeLayout
                         android:layout_width="wrap_content"
@@ -246,12 +246,8 @@
                                     android:textColor="@color/white"
                                     android:textSize="@dimen/size_9dp" />
                             </LinearLayout>
-
-
-
-
-                            <LinearLayout
-                                android:id="@+id/call_main_relative1"
+                           <LinearLayout
+                                android:id="@+id/mail_main_relative"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="3dp"

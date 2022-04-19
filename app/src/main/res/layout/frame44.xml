@@ -15,8 +15,8 @@
             android:layout_height="350dp">
             <RelativeLayout
                 android:id="@+id/business_logo_relative"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
 
                 android:layout_marginLeft="@dimen/size_15dp"
                 android:layout_marginTop="@dimen/dimen_5dp">
@@ -25,13 +25,14 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/dimen_5dp">
                     <RelativeLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
                         android:background="@drawable/simple_curved_relative_5dp">
+
                         <ImageView
                             android:id="@+id/business_icon"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
 
                             android:scaleType="fitXY"
                             android:src="@drawable/brand_shaastra_logo" />
@@ -131,29 +132,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <LinearLayout
+
                     android:layout_width="match_parent"
                     android:orientation="horizontal"
                     android:background="@drawable/asset_frame44_header_background"
                     android:layout_height="15dp">
+                    <RelativeLayout
+                        android:id="@+id/call_main_relative"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
                     <ImageView
                         android:id="@+id/footer_call_icon"
                         android:layout_width="10sp"
                         android:layout_height="10sp"
                         android:layout_marginTop="4dp"
 
-                        android:layout_toRightOf="@+id/facebook_icon"
                         android:src="@drawable/asset_20frame44_call_icon" />
                     <com.brandshaastra.utils.CustomTextView
                         android:id="@+id/business_call_details"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_centerHorizontal="true"
                         android:ellipsize="end"
-                        android:gravity="center_horizontal"
                         android:layout_marginTop="4dp"
                         android:layout_marginLeft="5dp"
                         android:singleLine="true"
-                        android:layout_toRightOf="@+id/call_footer_icon"
                         android:text="32894379448 | 938479374389"
                         android:textColor="@color/white"
                         android:textSize="8dp"
@@ -168,11 +172,11 @@
                         android:layout_marginTop="4dp"
                         android:layout_marginLeft="5dp"
                         android:singleLine="true"
-                        android:layout_toRightOf="@+id/call_footer_icon"
                         android:text="32894379448 | 938479374389"
                         android:textColor="@color/white"
                         android:textSize="8dp"
                         tools:ignore="MissingClass" />
+                    </RelativeLayout>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
